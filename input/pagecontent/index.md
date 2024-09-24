@@ -6,7 +6,7 @@
 
 ### Scope
 
-This publication contains the full set of specifications...
+This publication contains the full set of specifications for Inspirers Ecosystem
 
 There is also an overview of the projects and motivation for the specifications.
 
