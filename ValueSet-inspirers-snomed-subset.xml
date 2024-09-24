@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="inspirers-snomed-subset"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet inspirers-snomed-subset</b></p><a name="inspirers-snomed-subset"> </a><a name="hcinspirers-snomed-subset"> </a><a name="inspirers-snomed-subset-en-US"> </a><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a 73211009 (Diabetes mellitus)</li></ul></div>
+  </text>
+  <url value="http://example.com/fhir/example/ValueSet/inspirers-snomed-subset"/>
+  <version value="1.0.0"/>
+  <name value="InspiresrsSnomedSubset"/>
+  <title value="Inspiresrs SNOMED CT Subset"/>
+  <status value="active"/>
+  <date value="2024-09-24T13:41:09+00:00"/>
+  <publisher value="HL7 Portugal"/>
+  <contact>
+    <name value="HL7 Portugal"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.pt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@hl7.pt"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="HL7 Portugal"/>
+    <telecom>
+      <system value="email"/>
+      <value value="geral@hl7.pt"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A subset of SNOMED CT codes for specific use cases in Inspiresrs."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="73211009"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

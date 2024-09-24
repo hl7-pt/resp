@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Communication xmlns="http://hl7.org/fhir">
+  <id value="communication_ID_example"/>
+  <meta>
+    <source value="Coaching System"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Communication communication_ID_example</b></p><a name="communication_ID_example"> </a><a name="hccommunication_ID_example"> </a><a name="communication_ID_example-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Information Source: Coaching System</p></div><p><b>status</b>: Completed</p><p><b>category</b>: <span title="Codes:{http://hl7.org/fhir/ValueSet/communication-category instruction}">instruction</span></p><p><b>subject</b>: <a href="Patient/patient_ID_example">Patient/patient_ID_example</a></p><p><b>sent</b>: 2020-10-11 03:01:10+0000</p><p><b>reasonCode</b>: <span title="Codes:{codesystem.inspirers.med.up.pt AMP187}">AMP187</span></p><h3>Payloads</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Content[x]</b></td></tr><tr><td style="display: none">*</td><td>Checking and correcting inhaler technique using a standardized checklist takes only 2/3 minutes and leads to improved asthma control in adults (Evidence A). A physical demonstration is essential to improve inhaler technique.</td></tr></table></div>
+  </text>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/ValueSet/communication-category"/>
+      <code value="instruction"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/patient_ID_example"/>
+  </subject>
+  <sent value="2020-10-11T03:01:10.001Z"/>
+  <reasonCode>
+    <coding>
+      <system value="codesystem.inspirers.med.up.pt"/>
+      <code value="AMP187"/>
+    </coding>
+  </reasonCode>
+  <payload>
+    <contentString value="Checking and correcting inhaler technique using a standardized checklist takes only 2/3 minutes and leads to improved asthma control in adults (Evidence A). A physical demonstration is essential to improve inhaler technique."/>
+  </payload>
+</Communication>

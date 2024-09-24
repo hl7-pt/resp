@@ -1,0 +1,156 @@
+[
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "PRreferral-ABE",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PRreferral-ABE",
+    "version" : "1.0.0",
+    "name" : "PulmonaryRehabilitationReferralABE"
+  },
+  {
+    "id" : "inspirers-careplan",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-careplan",
+    "version" : "1.0.0",
+    "name" : "InspirersCarePlan"
+  },
+  {
+    "id" : "inspirers-careteam",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-careteam",
+    "version" : "1.0.0",
+    "name" : "InspirersCareTeam"
+  },
+  {
+    "id" : "inspirers-communication",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-communication",
+    "version" : "1.0.0",
+    "name" : "InspirersCommunication"
+  },
+  {
+    "id" : "inspirers-condition",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-condition",
+    "version" : "1.0.0",
+    "name" : "InspirersCondition"
+  },
+  {
+    "id" : "inspirers-consent",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-consent",
+    "version" : "1.0.0",
+    "name" : "InspirersConsent"
+  },
+  {
+    "id" : "inspirers-goal",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-goal",
+    "version" : "1.0.0",
+    "name" : "InspirersGoal"
+  },
+  {
+    "id" : "inspirers-media",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-media",
+    "version" : "1.0.0",
+    "name" : "InspirersMedia"
+  },
+  {
+    "id" : "inspirers-medication",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-medication",
+    "version" : "1.0.0",
+    "name" : "InspirersMedication"
+  },
+  {
+    "id" : "inspirers-medicationAdministration",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-medicationAdministration",
+    "version" : "1.0.0",
+    "name" : "InspirersMedicationAdministration"
+  },
+  {
+    "id" : "inspirers-medicationstatement",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-medicationstatement",
+    "version" : "1.0.0",
+    "name" : "InspirersMedicationStatement"
+  },
+  {
+    "id" : "inspirers-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-observation",
+    "version" : "1.0.0",
+    "name" : "InspirersBaseObservation"
+  },
+  {
+    "id" : "inspirers-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-patient",
+    "version" : "1.0.0",
+    "name" : "InspirersPatient"
+  },
+  {
+    "id" : "inspirers-person",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-person",
+    "version" : "1.0.0",
+    "name" : "InspirersPerson"
+  },
+  {
+    "id" : "inspirers-practioner",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-practioner",
+    "version" : "1.0.0",
+    "name" : "InspirersPractioner"
+  },
+  {
+    "id" : "inspirers-questionnaire",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-questionnaire",
+    "version" : "1.0.0",
+    "name" : "InspirersQuestionnaire"
+  },
+  {
+    "id" : "inspirers-questionnaireresponse",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-questionnaireresponse",
+    "version" : "1.0.0",
+    "name" : "InspirersQuestionnaireResponse"
+  },
+  {
+    "id" : "inspirers-relatedperson",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/inspirers-relatedperson",
+    "version" : "1.0.0",
+    "name" : "InspirersRelatedPerson"
+  },
+  {
+    "id" : "inspirers-loinc-subset",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/inspirers-loinc-subset",
+    "version" : "1.0.0",
+    "name" : "InspiresrsLoincSubset"
+  },
+  {
+    "id" : "inspirers-snomed-subset",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/inspirers-snomed-subset",
+    "version" : "1.0.0",
+    "name" : "InspiresrsSnomedSubset"
+  },
+  {
+    "id" : "questionnaire_ID_example",
+    "type" : "Questionnaire",
+    "url" : "http://fhir.inspirers.med.up.pt/Questionnaire/Q901PTpt|1.2",
+    "version" : "1.0.0",
+    "name" : "Q901"
+  }
+]

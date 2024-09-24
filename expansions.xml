@@ -1,0 +1,1886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="1bf22915-6b5e-4273-896e-9bfa48b42462"/>
+  <meta>
+    <lastUpdated value="2024-09-24T13:41:09.654+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/inspirers-loinc-subset"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.78</p>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/inspirers-loinc-subset"/>
+        <version value="1.0.0"/>
+        <name value="InspiresrsLoincSubset"/>
+        <title value="Inspiresrs LOINC CT Subset"/>
+        <status value="active"/>
+        <date value="2024-09-24T13:41:09+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ce90c798-a9e4-46e1-9fcd-552f210cf0d9"/>
+          <timestamp value="2024-09-24T13:41:35+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.78"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.78"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/inspirers-snomed-subset"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p>This value set expansion contains 133 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-73211009"> </a>  
+                  <a href="http://snomed.info/id/73211009">73211009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-2751001"> </a>  
+                  <a href="http://snomed.info/id/2751001">2751001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fibrocalculous pancreatic diabetes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-4783006"> </a>  
+                  <a href="http://snomed.info/id/4783006">4783006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maternal diabetes mellitus with hypoglycemia affecting fetus OR newborn</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-5368009"> </a>  
+                  <a href="http://snomed.info/id/5368009">5368009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Drug-induced diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-5969009"> </a>  
+                  <a href="http://snomed.info/id/5969009">5969009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus associated with genetic syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-8801005"> </a>  
+                  <a href="http://snomed.info/id/8801005">8801005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Secondary diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-11530004"> </a>  
+                  <a href="http://snomed.info/id/11530004">11530004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brittle diabetes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-11687002"> </a>  
+                  <a href="http://snomed.info/id/11687002">11687002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gestational diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-23045005"> </a>  
+                  <a href="http://snomed.info/id/23045005">23045005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Insulin dependent diabetes mellitus type IA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-24203005"> </a>  
+                  <a href="http://snomed.info/id/24203005">24203005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Extreme insulin resistance with acanthosis nigricans, hirsutism AND abnormal insulin receptors</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-28032008"> </a>  
+                  <a href="http://snomed.info/id/28032008">28032008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Insulin dependent diabetes mellitus type IB</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-33559001"> </a>  
+                  <a href="http://snomed.info/id/33559001">33559001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pineal hyperplasia AND diabetes mellitus syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-42954008"> </a>  
+                  <a href="http://snomed.info/id/42954008">42954008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus associated with receptor abnormality</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-44054006"> </a>  
+                  <a href="http://snomed.info/id/44054006">44054006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus type II</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-46635009"> </a>  
+                  <a href="http://snomed.info/id/46635009">46635009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus type I</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-46894009"> </a>  
+                  <a href="http://snomed.info/id/46894009">46894009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gestational diabetes mellitus class A2 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-49817004"> </a>  
+                  <a href="http://snomed.info/id/49817004">49817004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Neonatal diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-51002006"> </a>  
+                  <a href="http://snomed.info/id/51002006">51002006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus associated with pancreatic disease</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-57886004"> </a>  
+                  <a href="http://snomed.info/id/57886004">57886004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Protein-deficient diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-59079001"> </a>  
+                  <a href="http://snomed.info/id/59079001">59079001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus associated with hormonal etiology</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-70694009"> </a>  
+                  <a href="http://snomed.info/id/70694009">70694009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Marquardt-Loriaux syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-75022004"> </a>  
+                  <a href="http://snomed.info/id/75022004">75022004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gestational diabetes mellitus class A1 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-75524006"> </a>  
+                  <a href="http://snomed.info/id/75524006">75524006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Malnutrition related diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-75682002"> </a>  
+                  <a href="http://snomed.info/id/75682002">75682002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus caused by insulin receptor antibodies (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-76751001"> </a>  
+                  <a href="http://snomed.info/id/76751001">76751001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus in mother complicating pregnancy, childbirth AND/OR puerperium</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-81531005"> </a>  
+                  <a href="http://snomed.info/id/81531005">81531005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus type 2 in obese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-91352004"> </a>  
+                  <a href="http://snomed.info/id/91352004">91352004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Insulinopathy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-111307005"> </a>  
+                  <a href="http://snomed.info/id/111307005">111307005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Leprechaunism syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-111552007"> </a>  
+                  <a href="http://snomed.info/id/111552007">111552007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus without complication</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-123763000"> </a>  
+                  <a href="http://snomed.info/id/123763000">123763000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Houssay's syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-127012008"> </a>  
+                  <a href="http://snomed.info/id/127012008">127012008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lipoatrophic diabetes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-190368000"> </a>  
+                  <a href="http://snomed.info/id/190368000">190368000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type I diabetes mellitus with ulcer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-190372001"> </a>  
+                  <a href="http://snomed.info/id/190372001">190372001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type I diabetes mellitus maturity onset</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-190389009"> </a>  
+                  <a href="http://snomed.info/id/190389009">190389009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type 2 diabetes mellitus with ulcer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-190407009"> </a>  
+                  <a href="http://snomed.info/id/190407009">190407009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Malnutrition-related diabetes mellitus with renal complications</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-190410002"> </a>  
+                  <a href="http://snomed.info/id/190410002">190410002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Malnutrition-related diabetes mellitus with peripheral circulatory complications</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-190412005"> </a>  
+                  <a href="http://snomed.info/id/190412005">190412005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Malnutrition-related diabetes mellitus without complications</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-190416008"> </a>  
+                  <a href="http://snomed.info/id/190416008">190416008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Steroid-induced diabetes mellitus without complication</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-190447002"> </a>  
+                  <a href="http://snomed.info/id/190447002">190447002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Steroid-induced diabetes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-199223000"> </a>  
+                  <a href="http://snomed.info/id/199223000">199223000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus during pregnancy, childbirth and the puerperium</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-199229001"> </a>  
+                  <a href="http://snomed.info/id/199229001">199229001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pre-existing type 1 diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-199230006"> </a>  
+                  <a href="http://snomed.info/id/199230006">199230006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pre-existing type 2 diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-199231005"> </a>  
+                  <a href="http://snomed.info/id/199231005">199231005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pre-existing malnutrition-related diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237599002"> </a>  
+                  <a href="http://snomed.info/id/237599002">237599002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Insulin treated Type II diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237600004"> </a>  
+                  <a href="http://snomed.info/id/237600004">237600004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Malnutrition-related diabetes mellitus - fibrocalculous</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237601000"> </a>  
+                  <a href="http://snomed.info/id/237601000">237601000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Secondary endocrine diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237603002"> </a>  
+                  <a href="http://snomed.info/id/237603002">237603002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Transitory neonatal diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237604008"> </a>  
+                  <a href="http://snomed.info/id/237604008">237604008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus autosomal dominant type II</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237611007"> </a>  
+                  <a href="http://snomed.info/id/237611007">237611007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237612000"> </a>  
+                  <a href="http://snomed.info/id/237612000">237612000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Photomyoclonus, diabetes mellitus, deafness, nephropathy and cerebral dysfunction</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237617006"> </a>  
+                  <a href="http://snomed.info/id/237617006">237617006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Megaloblastic anemia, thiamine-responsive, with diabetes mellitus and sensorineural deafness</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237619009"> </a>  
+                  <a href="http://snomed.info/id/237619009">237619009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ballinger-Wallace syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237627000"> </a>  
+                  <a href="http://snomed.info/id/237627000">237627000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pregnancy and type 2 diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237651005"> </a>  
+                  <a href="http://snomed.info/id/237651005">237651005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Insulin resistance - type A</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-237652003"> </a>  
+                  <a href="http://snomed.info/id/237652003">237652003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Insulin resistance - type B</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-276560009"> </a>  
+                  <a href="http://snomed.info/id/276560009">276560009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus in neonate small for gestational age</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-290002008"> </a>  
+                  <a href="http://snomed.info/id/290002008">290002008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Unstable type I diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-313435000"> </a>  
+                  <a href="http://snomed.info/id/313435000">313435000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type I diabetes mellitus without complication</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-313436004"> </a>  
+                  <a href="http://snomed.info/id/313436004">313436004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type 2 diabetes mellitus without complication</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-359642000"> </a>  
+                  <a href="http://snomed.info/id/359642000">359642000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus type 2 in nonobese</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-405749004"> </a>  
+                  <a href="http://snomed.info/id/405749004">405749004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Newly diagnosed diabetes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-408540003"> </a>  
+                  <a href="http://snomed.info/id/408540003">408540003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus induced by non-steroid drugs</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-413183008"> </a>  
+                  <a href="http://snomed.info/id/413183008">413183008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus induced by non-steroid drugs without complication</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-426705001"> </a>  
+                  <a href="http://snomed.info/id/426705001">426705001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus associated with cystic fibrosis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-426875007"> </a>  
+                  <a href="http://snomed.info/id/426875007">426875007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Latent autoimmune diabetes mellitus in adult (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-427089005"> </a>  
+                  <a href="http://snomed.info/id/427089005">427089005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus due to cystic fibrosis (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-443694000"> </a>  
+                  <a href="http://snomed.info/id/443694000">443694000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type II diabetes mellitus uncontrolled</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-444073006"> </a>  
+                  <a href="http://snomed.info/id/444073006">444073006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type I diabetes mellitus uncontrolled</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-444074000"> </a>  
+                  <a href="http://snomed.info/id/444074000">444074000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type I diabetes mellitus well controlled</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-444110003"> </a>  
+                  <a href="http://snomed.info/id/444110003">444110003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type II diabetes mellitus well controlled</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-445260006"> </a>  
+                  <a href="http://snomed.info/id/445260006">445260006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Posttransplant diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-445353002"> </a>  
+                  <a href="http://snomed.info/id/445353002">445353002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brittle type II diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-472699005"> </a>  
+                  <a href="http://snomed.info/id/472699005">472699005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gestational diabetes mellitus uncontrolled</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609561005"> </a>  
+                  <a href="http://snomed.info/id/609561005">609561005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609562003"> </a>  
+                  <a href="http://snomed.info/id/609562003">609562003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity onset diabetes of the young, type 1 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609563008"> </a>  
+                  <a href="http://snomed.info/id/609563008">609563008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pre-existing diabetes mellitus in pregnancy (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609564002"> </a>  
+                  <a href="http://snomed.info/id/609564002">609564002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pre-existing type 1 diabetes mellitus in pregnancy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609565001"> </a>  
+                  <a href="http://snomed.info/id/609565001">609565001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Permanent neonatal diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609566000"> </a>  
+                  <a href="http://snomed.info/id/609566000">609566000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pregnancy and type 1 diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609567009"> </a>  
+                  <a href="http://snomed.info/id/609567009">609567009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pre-existing type 2 diabetes mellitus in pregnancy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609568004"> </a>  
+                  <a href="http://snomed.info/id/609568004">609568004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus due to genetic defect in beta cell function</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609569007"> </a>  
+                  <a href="http://snomed.info/id/609569007">609569007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus due to genetic defect in insulin action</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609570008"> </a>  
+                  <a href="http://snomed.info/id/609570008">609570008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young, type 3 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609571007"> </a>  
+                  <a href="http://snomed.info/id/609571007">609571007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young, type 4</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609572000"> </a>  
+                  <a href="http://snomed.info/id/609572000">609572000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young, type 5 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609573005"> </a>  
+                  <a href="http://snomed.info/id/609573005">609573005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young, type 6 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609574004"> </a>  
+                  <a href="http://snomed.info/id/609574004">609574004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young, type 7</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609575003"> </a>  
+                  <a href="http://snomed.info/id/609575003">609575003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes-pancreatic exocrine dysfunction syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609576002"> </a>  
+                  <a href="http://snomed.info/id/609576002">609576002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young, type 9</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609577006"> </a>  
+                  <a href="http://snomed.info/id/609577006">609577006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young, type 10 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609578001"> </a>  
+                  <a href="http://snomed.info/id/609578001">609578001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Maturity-onset diabetes of the young, type 11</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609579009"> </a>  
+                  <a href="http://snomed.info/id/609579009">609579009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus, transient neonatal 1</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609580007"> </a>  
+                  <a href="http://snomed.info/id/609580007">609580007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus, transient neonatal 2 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-609581006"> </a>  
+                  <a href="http://snomed.info/id/609581006">609581006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus, transient neonatal 3 (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-703136005"> </a>  
+                  <a href="http://snomed.info/id/703136005">703136005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus in remission (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-703137001"> </a>  
+                  <a href="http://snomed.info/id/703137001">703137001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type I diabetes mellitus in remission (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-703138006"> </a>  
+                  <a href="http://snomed.info/id/703138006">703138006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type II diabetes mellitus in remission (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-709147009"> </a>  
+                  <a href="http://snomed.info/id/709147009">709147009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gingivitis co-occurrent with diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-716362006"> </a>  
+                  <a href="http://snomed.info/id/716362006">716362006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gingival disease co-occurrent with diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-720519003"> </a>  
+                  <a href="http://snomed.info/id/720519003">720519003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Atherosclerosis, deafness, diabetes, epilepsy, nephropathy syndrome (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-721088003"> </a>  
+                  <a href="http://snomed.info/id/721088003">721088003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Developmental delay, epilepsy, neonatal diabetes syndrome (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-722206009"> </a>  
+                  <a href="http://snomed.info/id/722206009">722206009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pancreatic hypoplasia, diabetes mellitus, congenital heart disease syndrome (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-722454003"> </a>  
+                  <a href="http://snomed.info/id/722454003">722454003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Intellectual disability, craniofacial dysmorphism, hypogonadism, diabetes mellitus syndrome (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-724067006"> </a>  
+                  <a href="http://snomed.info/id/724067006">724067006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Permanent neonatal diabetes mellitus with cerebellar agenesis syndrome (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-733072002"> </a>  
+                  <a href="http://snomed.info/id/733072002">733072002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stimmler syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-734022008"> </a>  
+                  <a href="http://snomed.info/id/734022008">734022008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Wolfram-like syndrome (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-737212004"> </a>  
+                  <a href="http://snomed.info/id/737212004">737212004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus caused by chemical (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-782755007"> </a>  
+                  <a href="http://snomed.info/id/782755007">782755007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Primary microcephaly, mild intellectual disability, young-onset diabetes syndrome (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-782825008"> </a>  
+                  <a href="http://snomed.info/id/782825008">782825008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Primary microcephaly, epilepsy, permanent neonatal diabetes syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-783722008"> </a>  
+                  <a href="http://snomed.info/id/783722008">783722008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Myopathy and diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-816067005"> </a>  
+                  <a href="http://snomed.info/id/816067005">816067005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes, hypogonadism, deafness, intellectual disability syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-870528001"> </a>  
+                  <a href="http://snomed.info/id/870528001">870528001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Newly diagnosed diabetes mellitus type 1</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-890171006"> </a>  
+                  <a href="http://snomed.info/id/890171006">890171006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ketosis-prone diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1142044000"> </a>  
+                  <a href="http://snomed.info/id/1142044000">1142044000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pre-existing malnutrition-related diabetes mellitus in pregnancy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1197592001"> </a>  
+                  <a href="http://snomed.info/id/1197592001">1197592001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Intrauterine growth restriction, short stature, early adult-onset diabetes syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1217044000"> </a>  
+                  <a href="http://snomed.info/id/1217044000">1217044000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ketosis-resistant diabetes mellitus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1217068008"> </a>  
+                  <a href="http://snomed.info/id/1217068008">1217068008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fulminant type 1 diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1255271005"> </a>  
+                  <a href="http://snomed.info/id/1255271005">1255271005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Juvenile-onset diabetes mellitus, central and peripheral neurodegeneration syndrome (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1285518004"> </a>  
+                  <a href="http://snomed.info/id/1285518004">1285518004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Wolfram syndrome type I</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1285519007"> </a>  
+                  <a href="http://snomed.info/id/1285519007">1285519007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Wolfram syndrome type 2</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1290118005"> </a>  
+                  <a href="http://snomed.info/id/1290118005">1290118005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Presymptomatic T1DM (type 1 diabetes mellitus)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-201000119106"> </a>  
+                  <a href="http://snomed.info/id/201000119106">201000119106</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Disorder due to well controlled type 2 diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1481000119100"> </a>  
+                  <a href="http://snomed.info/id/1481000119100">1481000119100</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus type 2 without retinopathy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-31321000119102"> </a>  
+                  <a href="http://snomed.info/id/31321000119102">31321000119102</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus type 1 without retinopathy (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-40791000119105"> </a>  
+                  <a href="http://snomed.info/id/40791000119105">40791000119105</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Postpartum gestational diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-40801000119106"> </a>  
+                  <a href="http://snomed.info/id/40801000119106">40801000119106</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gestational diabetes mellitus complicating pregnancy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-105401000119101"> </a>  
+                  <a href="http://snomed.info/id/105401000119101">105401000119101</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus due to pancreatic injury (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-106281000119103"> </a>  
+                  <a href="http://snomed.info/id/106281000119103">106281000119103</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Pre-existing diabetes mellitus in mother complicating childbirth (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-164971000119101"> </a>  
+                  <a href="http://snomed.info/id/164971000119101">164971000119101</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Type 2 diabetes mellitus controlled by diet</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-368521000119107"> </a>  
+                  <a href="http://snomed.info/id/368521000119107">368521000119107</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Disorder of nerve co-occurrent and due to type 1 diabetes mellitus (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10753491000119101"> </a>  
+                  <a href="http://snomed.info/id/10753491000119101">10753491000119101</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gestational diabetes mellitus in childbirth (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10754881000119104"> </a>  
+                  <a href="http://snomed.info/id/10754881000119104">10754881000119104</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Diabetes mellitus in mother complicating childbirth (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-530558861000132104"> </a>  
+                  <a href="http://snomed.info/id/530558861000132104">530558861000132104</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Atypical diabetes mellitus (disorder)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/inspirers-snomed-subset"/>
+        <version value="1.0.0"/>
+        <name value="InspiresrsSnomedSubset"/>
+        <title value="Inspiresrs SNOMED CT Subset"/>
+        <status value="active"/>
+        <date value="2024-09-24T13:41:09+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
+            <valueBoolean value="true"/>
+          </extension>
+          <identifier value="urn:uuid:53eb9c31-371e-4062-9e23-63ef2808dd3c"/>
+          <timestamp value="2024-09-24T13:41:36+00:00"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="73211009"/>
+            <display value="Diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="2751001"/>
+            <display value="Fibrocalculous pancreatic diabetes"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="4783006"/>
+            <display value="Maternal diabetes mellitus with hypoglycemia affecting fetus OR newborn"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="5368009"/>
+            <display value="Drug-induced diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="5969009"/>
+            <display value="Diabetes mellitus associated with genetic syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8801005"/>
+            <display value="Secondary diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11530004"/>
+            <display value="Brittle diabetes"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11687002"/>
+            <display value="Gestational diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="23045005"/>
+            <display value="Insulin dependent diabetes mellitus type IA"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="24203005"/>
+            <display value="Extreme insulin resistance with acanthosis nigricans, hirsutism AND abnormal insulin receptors"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="28032008"/>
+            <display value="Insulin dependent diabetes mellitus type IB"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33559001"/>
+            <display value="Pineal hyperplasia AND diabetes mellitus syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="42954008"/>
+            <display value="Diabetes mellitus associated with receptor abnormality"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="44054006"/>
+            <display value="Diabetes mellitus type II"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="46635009"/>
+            <display value="Diabetes mellitus type I"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="46894009"/>
+            <display value="Gestational diabetes mellitus class A2 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="49817004"/>
+            <display value="Neonatal diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51002006"/>
+            <display value="Diabetes mellitus associated with pancreatic disease"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="57886004"/>
+            <display value="Protein-deficient diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="59079001"/>
+            <display value="Diabetes mellitus associated with hormonal etiology"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="70694009"/>
+            <display value="Marquardt-Loriaux syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="75022004"/>
+            <display value="Gestational diabetes mellitus class A1 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="75524006"/>
+            <display value="Malnutrition related diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="75682002"/>
+            <display value="Diabetes mellitus caused by insulin receptor antibodies (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="76751001"/>
+            <display value="Diabetes mellitus in mother complicating pregnancy, childbirth AND/OR puerperium"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="81531005"/>
+            <display value="Diabetes mellitus type 2 in obese"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="91352004"/>
+            <display value="Insulinopathy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="111307005"/>
+            <display value="Leprechaunism syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="111552007"/>
+            <display value="Diabetes mellitus without complication"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="123763000"/>
+            <display value="Houssay's syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="127012008"/>
+            <display value="Lipoatrophic diabetes"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190368000"/>
+            <display value="Type I diabetes mellitus with ulcer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190372001"/>
+            <display value="Type I diabetes mellitus maturity onset"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190389009"/>
+            <display value="Type 2 diabetes mellitus with ulcer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190407009"/>
+            <display value="Malnutrition-related diabetes mellitus with renal complications"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190410002"/>
+            <display value="Malnutrition-related diabetes mellitus with peripheral circulatory complications"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190412005"/>
+            <display value="Malnutrition-related diabetes mellitus without complications"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190416008"/>
+            <display value="Steroid-induced diabetes mellitus without complication"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="190447002"/>
+            <display value="Steroid-induced diabetes"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="199223000"/>
+            <display value="Diabetes mellitus during pregnancy, childbirth and the puerperium"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="199229001"/>
+            <display value="Pre-existing type 1 diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="199230006"/>
+            <display value="Pre-existing type 2 diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="199231005"/>
+            <display value="Pre-existing malnutrition-related diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237599002"/>
+            <display value="Insulin treated Type II diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237600004"/>
+            <display value="Malnutrition-related diabetes mellitus - fibrocalculous"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237601000"/>
+            <display value="Secondary endocrine diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237603002"/>
+            <display value="Transitory neonatal diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237604008"/>
+            <display value="Diabetes mellitus autosomal dominant type II"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237611007"/>
+            <display value="Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237612000"/>
+            <display value="Photomyoclonus, diabetes mellitus, deafness, nephropathy and cerebral dysfunction"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237617006"/>
+            <display value="Megaloblastic anemia, thiamine-responsive, with diabetes mellitus and sensorineural deafness"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237619009"/>
+            <display value="Ballinger-Wallace syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237627000"/>
+            <display value="Pregnancy and type 2 diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237651005"/>
+            <display value="Insulin resistance - type A"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="237652003"/>
+            <display value="Insulin resistance - type B"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="276560009"/>
+            <display value="Diabetes mellitus in neonate small for gestational age"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="290002008"/>
+            <display value="Unstable type I diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="313435000"/>
+            <display value="Type I diabetes mellitus without complication"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="313436004"/>
+            <display value="Type 2 diabetes mellitus without complication"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="359642000"/>
+            <display value="Diabetes mellitus type 2 in nonobese"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="405749004"/>
+            <display value="Newly diagnosed diabetes"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="408540003"/>
+            <display value="Diabetes mellitus induced by non-steroid drugs"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="413183008"/>
+            <display value="Diabetes mellitus induced by non-steroid drugs without complication"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="426705001"/>
+            <display value="Diabetes mellitus associated with cystic fibrosis"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="426875007"/>
+            <display value="Latent autoimmune diabetes mellitus in adult (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="427089005"/>
+            <display value="Diabetes mellitus due to cystic fibrosis (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="443694000"/>
+            <display value="Type II diabetes mellitus uncontrolled"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="444073006"/>
+            <display value="Type I diabetes mellitus uncontrolled"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="444074000"/>
+            <display value="Type I diabetes mellitus well controlled"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="444110003"/>
+            <display value="Type II diabetes mellitus well controlled"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="445260006"/>
+            <display value="Posttransplant diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="445353002"/>
+            <display value="Brittle type II diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="472699005"/>
+            <display value="Gestational diabetes mellitus uncontrolled"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609561005"/>
+            <display value="Maturity-onset diabetes of the young (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609562003"/>
+            <display value="Maturity onset diabetes of the young, type 1 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609563008"/>
+            <display value="Pre-existing diabetes mellitus in pregnancy (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609564002"/>
+            <display value="Pre-existing type 1 diabetes mellitus in pregnancy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609565001"/>
+            <display value="Permanent neonatal diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609566000"/>
+            <display value="Pregnancy and type 1 diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609567009"/>
+            <display value="Pre-existing type 2 diabetes mellitus in pregnancy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609568004"/>
+            <display value="Diabetes mellitus due to genetic defect in beta cell function"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609569007"/>
+            <display value="Diabetes mellitus due to genetic defect in insulin action"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609570008"/>
+            <display value="Maturity-onset diabetes of the young, type 3 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609571007"/>
+            <display value="Maturity-onset diabetes of the young, type 4"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609572000"/>
+            <display value="Maturity-onset diabetes of the young, type 5 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609573005"/>
+            <display value="Maturity-onset diabetes of the young, type 6 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609574004"/>
+            <display value="Maturity-onset diabetes of the young, type 7"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609575003"/>
+            <display value="Diabetes-pancreatic exocrine dysfunction syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609576002"/>
+            <display value="Maturity-onset diabetes of the young, type 9"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609577006"/>
+            <display value="Maturity-onset diabetes of the young, type 10 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609578001"/>
+            <display value="Maturity-onset diabetes of the young, type 11"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609579009"/>
+            <display value="Diabetes mellitus, transient neonatal 1"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609580007"/>
+            <display value="Diabetes mellitus, transient neonatal 2 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="609581006"/>
+            <display value="Diabetes mellitus, transient neonatal 3 (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="703136005"/>
+            <display value="Diabetes mellitus in remission (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="703137001"/>
+            <display value="Type I diabetes mellitus in remission (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="703138006"/>
+            <display value="Type II diabetes mellitus in remission (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="709147009"/>
+            <display value="Gingivitis co-occurrent with diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="716362006"/>
+            <display value="Gingival disease co-occurrent with diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720519003"/>
+            <display value="Atherosclerosis, deafness, diabetes, epilepsy, nephropathy syndrome (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="721088003"/>
+            <display value="Developmental delay, epilepsy, neonatal diabetes syndrome (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="722206009"/>
+            <display value="Pancreatic hypoplasia, diabetes mellitus, congenital heart disease syndrome (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="722454003"/>
+            <display value="Intellectual disability, craniofacial dysmorphism, hypogonadism, diabetes mellitus syndrome (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="724067006"/>
+            <display value="Permanent neonatal diabetes mellitus with cerebellar agenesis syndrome (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="733072002"/>
+            <display value="Stimmler syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="734022008"/>
+            <display value="Wolfram-like syndrome (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="737212004"/>
+            <display value="Diabetes mellitus caused by chemical (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="782755007"/>
+            <display value="Primary microcephaly, mild intellectual disability, young-onset diabetes syndrome (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="782825008"/>
+            <display value="Primary microcephaly, epilepsy, permanent neonatal diabetes syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="783722008"/>
+            <display value="Myopathy and diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="816067005"/>
+            <display value="Diabetes, hypogonadism, deafness, intellectual disability syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="870528001"/>
+            <display value="Newly diagnosed diabetes mellitus type 1"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="890171006"/>
+            <display value="Ketosis-prone diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1142044000"/>
+            <display value="Pre-existing malnutrition-related diabetes mellitus in pregnancy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1197592001"/>
+            <display value="Intrauterine growth restriction, short stature, early adult-onset diabetes syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1217044000"/>
+            <display value="Ketosis-resistant diabetes mellitus"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1217068008"/>
+            <display value="Fulminant type 1 diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1255271005"/>
+            <display value="Juvenile-onset diabetes mellitus, central and peripheral neurodegeneration syndrome (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1285518004"/>
+            <display value="Wolfram syndrome type I"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1285519007"/>
+            <display value="Wolfram syndrome type 2"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1290118005"/>
+            <display value="Presymptomatic T1DM (type 1 diabetes mellitus)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="201000119106"/>
+            <display value="Disorder due to well controlled type 2 diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1481000119100"/>
+            <display value="Diabetes mellitus type 2 without retinopathy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="31321000119102"/>
+            <display value="Diabetes mellitus type 1 without retinopathy (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40791000119105"/>
+            <display value="Postpartum gestational diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40801000119106"/>
+            <display value="Gestational diabetes mellitus complicating pregnancy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="105401000119101"/>
+            <display value="Diabetes mellitus due to pancreatic injury (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="106281000119103"/>
+            <display value="Pre-existing diabetes mellitus in mother complicating childbirth (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="164971000119101"/>
+            <display value="Type 2 diabetes mellitus controlled by diet"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368521000119107"/>
+            <display value="Disorder of nerve co-occurrent and due to type 1 diabetes mellitus (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10753491000119101"/>
+            <display value="Gestational diabetes mellitus in childbirth (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10754881000119104"/>
+            <display value="Diabetes mellitus in mother complicating childbirth (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="530558861000132104"/>
+            <display value="Atypical diabetes mellitus (disorder)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

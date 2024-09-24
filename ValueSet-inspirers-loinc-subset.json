@@ -1,0 +1,52 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "inspirers-loinc-subset",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet inspirers-loinc-subset</b></p><a name=\"inspirers-loinc-subset\"> </a><a name=\"hcinspirers-loinc-subset\"> </a><a name=\"inspirers-loinc-subset-en-US\"> </a><ul><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a> where concept  is-a 73211009</li></ul></div>"
+  },
+  "url" : "http://example.com/fhir/example/ValueSet/inspirers-loinc-subset",
+  "version" : "1.0.0",
+  "name" : "InspiresrsLoincSubset",
+  "title" : "Inspiresrs LOINC CT Subset",
+  "status" : "active",
+  "date" : "2024-09-24T13:41:09+00:00",
+  "publisher" : "HL7 Portugal",
+  "contact" : [{
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.pt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@hl7.pt"
+    }]
+  },
+  {
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "geral@hl7.pt",
+      "use" : "work"
+    }]
+  }],
+  "description" : "A subset of LOINC CT codes for specific use cases in Inspiresrs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "73211009"
+      }]
+    }]
+  }
+}

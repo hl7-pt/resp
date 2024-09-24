@@ -1,0 +1,1103 @@
+{
+  "resourceType" : "Questionnaire",
+  "id" : "questionnaire_ID_example",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/cqf-questionnaire"]
+  },
+  "language" : "PTpt",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"PTpt\" lang=\"PTpt\"><p class=\"res-header-id\"><b>Generated Narrative: Questionnaire questionnaire_ID_example</b></p><a name=\"questionnaire_ID_example\"> </a><a name=\"hcquestionnaire_ID_example\"> </a><a name=\"questionnaire_ID_example-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: PTpt</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/cqf-questionnaire.html\">CQF-Questionnaire</a></p></div><b>Structure</b><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkID for the item\">LinkID</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the item can appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Other attributes of the item\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> Q901</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">http://fhir.inspirers.med.up.pt/Questionnaire/Q901PTpt|1.2#1.0.0</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" id=\"item.Q901_0.1\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"group\" class=\"hierarchy\"/> Q901_0.1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Por causa das suas doenças alérgicas respiratórias (asma/rinite/alergia), em média, nas últimas 4 semanas, quantas vezes teve:</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group\">group</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_1.1\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Nariz entupido?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.1\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_1.2\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.2</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Espirros?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.2\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_1.3\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.3</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Comichão no nariz?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.3\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_1.4\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.4</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Corrimento/pingo do nariz?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.4\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_1.5\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.5</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Falta de ar/dispneia?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.5\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_1.6\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.6</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Chiadeira no peito/pieira</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.6\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_1.7\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.7</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Aperto no peito com esforço físico?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.7\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_1.8\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.8</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Cansaço/dificuldade em fazer as suas atividades ou tarefas do dia-a-dia?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.8\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" id=\"item.Q901_1.9\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_1.9</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Acordou durante a noite por causa das suas doenças alérgicas respiratórias?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_1.9\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" id=\"item.Q901_0.2\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"group\" class=\"hierarchy\"/> Q901_0.2</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Por causa das suas doenças alérgicas respiratórias (asma/rinite/alergia), nas últimas 4 semanas, quantas vezes teve de:</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group\">group</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" id=\"item.Q901_2.1\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_2.1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Aumentar a utilização dos seus medicamentos?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_2.1\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" id=\"item.Q901_0.3\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"group\" class=\"hierarchy\"/> Q901_0.3</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Por causa das suas doenças alérgicas respiratórias (asma/rinite/alergia), em média, nas últimas 4 semanas, quantas vezes teve:</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group\">group</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_3.1\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_3.1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Queixas nos olhos como comichão, lacrimejo ou irritação nos olhos?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_3.1\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" id=\"item.Q901_3.2\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_3.2</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Tosse?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_3.2\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" id=\"item.Q901_3.3\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"coding\" class=\"hierarchy\"/> Q901_3.3</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Queixas na garganta como comichão, pigarro ou sensação de expectoração na garganta?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.Q901_3.3\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" id=\"item.Q901_0.4\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"group\" class=\"hierarchy\"/> Q901_0.4</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Pontuação CARAT:</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group\">group</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" id=\"item.Q901_4.1\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-integer.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"integer\" class=\"hierarchy\"/> Q901_4.1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">CARAT pontuação de vias aéreas superiores:</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/questionnaire-definitions.html#Questionnaire.item.readOnly\" title=\"Is Read Only\"><img src=\"icon-qi-readonly.png\" alt=\"icon\"/></a><img src=\"icon-qi-readonly.png\" alt=\"icon\"/><a href=\"http://hl7.org/fhir/R4/extension-questionnaire-hidden.html\" title=\"Is a hidden item\"><img src=\"icon-qi-hidden.png\" alt=\"icon\"/></a><img src=\"icon-qi-hidden.png\" alt=\"icon\"/></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Initial Value: Coding = <span title=\"null\">[not stated]</span>#%CARATU &quot;%CARATU&quot;</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" id=\"item.Q901_4.2\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-integer.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"integer\" class=\"hierarchy\"/> Q901_4.2</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">CARAT pontuação de vias aéreas inferiores:</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/questionnaire-definitions.html#Questionnaire.item.readOnly\" title=\"Is Read Only\"><img src=\"icon-qi-readonly.png\" alt=\"icon\"/></a><img src=\"icon-qi-readonly.png\" alt=\"icon\"/><a href=\"http://hl7.org/fhir/R4/extension-questionnaire-hidden.html\" title=\"Is a hidden item\"><img src=\"icon-qi-hidden.png\" alt=\"icon\"/></a><img src=\"icon-qi-hidden.png\" alt=\"icon\"/></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Initial Value: Coding = <span title=\"null\">[not stated]</span>#%CARATL &quot;%CARATL&quot;</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)\" id=\"item.Q901_4.3\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-integer.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"integer\" class=\"hierarchy\"/> Q901_4.3</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Pontuações CARAT superiores a 24 indicam bom controlo da doença. Pontuação total:</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/questionnaire-definitions.html#Questionnaire.item.readOnly\" title=\"Is Read Only\"><img src=\"icon-qi-readonly.png\" alt=\"icon\"/></a><img src=\"icon-qi-readonly.png\" alt=\"icon\"/></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Initial Value: Coding = <span title=\"null\">[not stated]</span>#%CARATT &quot;%CARATT&quot;</td></tr>\r\n<tr><td colspan=\"6\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table><hr/><p><b>Options Sets</b></p><a name=\"opt-item.Q901_1.1\"> </a><p><b>Answer options for Q901_1.1 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_1.2\"> </a><p><b>Answer options for Q901_1.2 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_1.3\"> </a><p><b>Answer options for Q901_1.3 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_1.4\"> </a><p><b>Answer options for Q901_1.4 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_1.5\"> </a><p><b>Answer options for Q901_1.5 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_1.6\"> </a><p><b>Answer options for Q901_1.6 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_1.7\"> </a><p><b>Answer options for Q901_1.7 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_1.8\"> </a><p><b>Answer options for Q901_1.8 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_1.9\"> </a><p><b>Answer options for Q901_1.9 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_2.1\"> </a><p><b>Answer options for Q901_2.1 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#I.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#G.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#G.2</li></ul><a name=\"opt-item.Q901_3.1\"> </a><p><b>Answer options for Q901_3.1 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_3.2\"> </a><p><b>Answer options for Q901_3.2 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul><a name=\"opt-item.Q901_3.3\"> </a><p><b>Answer options for Q901_3.3 </b></p><ul><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#A.7</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.1</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.2</li><li style=\"font-size: 11px\">http://codesystem.inspirers.med.up.pt#P.3</li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/variable",
+    "valueExpression" : {
+      "name" : "CARATT",
+      "language" : "AIRDOC",
+      "expression" : "%item.item.linkId='Q901_1.1'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.2'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.3'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.4'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.5'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.6'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.7'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.8'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.9'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_2.1'.answerOption.extension.valueDecimal"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/variable",
+    "valueExpression" : {
+      "name" : "CARATU",
+      "language" : "AIRDOC",
+      "expression" : "%item.item.linkId='Q901_1.1'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.2'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.3'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.4'.answerOption.extension.valueDecimal"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/variable",
+    "valueExpression" : {
+      "name" : "CARATL",
+      "language" : "AIRDOC",
+      "expression" : "%item.item.linkId='Q901_1.5'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.6'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.7'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.8'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_1.9'.answerOption.extension.valueDecimal+%item.item.linkId='Q901_2.1'.answerOption.extension.valueDecimal"
+    }
+  }],
+  "url" : "http://fhir.inspirers.med.up.pt/Questionnaire/Q901PTpt|1.2",
+  "version" : "1.0.0",
+  "name" : "Q901",
+  "title" : "Controlo da Asma e Rinite",
+  "status" : "draft",
+  "date" : "2024-09-24T13:41:09+00:00",
+  "publisher" : "HL7 Portugal",
+  "contact" : [{
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.pt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@hl7.pt"
+    }]
+  },
+  {
+    "name" : "HL7 Portugal",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "geral@hl7.pt",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "code" : [{
+    "system" : "http://codesystem.inspirers.med.up.pt",
+    "version" : "1.2",
+    "code" : "Q901PTpt"
+  }],
+  "item" : [{
+    "linkId" : "Q901_0.1",
+    "text" : "Por causa das suas doenças alérgicas respiratórias (asma/rinite/alergia), em média, nas últimas 4 semanas, quantas vezes teve:",
+    "type" : "group",
+    "required" : false,
+    "item" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.1",
+      "text" : "Nariz entupido?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.2",
+      "text" : "Espirros?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.3",
+      "text" : "Comichão no nariz?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.4",
+      "text" : "Corrimento/pingo do nariz?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.5",
+      "text" : "Falta de ar/dispneia?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.6",
+      "text" : "Chiadeira no peito/pieira",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.7",
+      "text" : "Aperto no peito com esforço físico?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.8",
+      "text" : "Cansaço/dificuldade em fazer as suas atividades ou tarefas do dia-a-dia?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_1.9",
+      "text" : "Acordou durante a noite por causa das suas doenças alérgicas respiratórias?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 1
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    }]
+  },
+  {
+    "linkId" : "Q901_0.2",
+    "text" : "Por causa das suas doenças alérgicas respiratórias (asma/rinite/alergia), nas últimas 4 semanas, quantas vezes teve de:",
+    "type" : "group",
+    "required" : false,
+    "item" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_2.1",
+      "text" : "Aumentar a utilização dos seus medicamentos?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Não estou a tomar medicamentos"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "I.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 3
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Menos de 7 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 2
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "G.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "7 ou mais dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "G.2"
+        }
+      }]
+    }]
+  },
+  {
+    "linkId" : "Q901_0.3",
+    "text" : "Por causa das suas doenças alérgicas respiratórias (asma/rinite/alergia), em média, nas últimas 4 semanas, quantas vezes teve:",
+    "type" : "group",
+    "required" : false,
+    "item" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_3.1",
+      "text" : "Queixas nos olhos como comichão, lacrimejo ou irritação nos olhos?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_3.2",
+      "text" : "Tosse?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://hl7.org/fhir/questionnaire-item-control",
+            "code" : "drop-down",
+            "display" : "Drop down"
+          }],
+          "text" : "Drop down"
+        }
+      }],
+      "linkId" : "Q901_3.3",
+      "text" : "Queixas na garganta como comichão, pigarro ou sensação de expectoração na garganta?",
+      "type" : "choice",
+      "required" : false,
+      "answerOption" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Nunca"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "A.7"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Até 1 ou 2 dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.1"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Mais de 2 dias por semana"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.2"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+          "valueString" : "Quase todos ou todos os dias"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+          "valueDecimal" : 0
+        }],
+        "valueCoding" : {
+          "system" : "http://codesystem.inspirers.med.up.pt",
+          "code" : "P.3"
+        }
+      }]
+    }]
+  },
+  {
+    "linkId" : "Q901_0.4",
+    "text" : "Pontuação CARAT:",
+    "type" : "group",
+    "required" : false,
+    "item" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+        "valueBoolean" : true
+      }],
+      "linkId" : "Q901_4.1",
+      "code" : [{
+        "system" : "http://codesystem.inspirers.med.up.pt",
+        "code" : "2_901_4"
+      }],
+      "text" : "CARAT pontuação de vias aéreas superiores:",
+      "type" : "integer",
+      "required" : false,
+      "readOnly" : true,
+      "initial" : [{
+        "valueCoding" : {
+          "code" : "%CARATU"
+        }
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+        "valueBoolean" : true
+      }],
+      "linkId" : "Q901_4.2",
+      "code" : [{
+        "system" : "http://codesystem.inspirers.med.up.pt",
+        "code" : "2_901_6"
+      }],
+      "text" : "CARAT pontuação de vias aéreas inferiores:",
+      "type" : "integer",
+      "required" : false,
+      "readOnly" : true,
+      "initial" : [{
+        "valueCoding" : {
+          "code" : "%CARATL"
+        }
+      }]
+    },
+    {
+      "linkId" : "Q901_4.3",
+      "code" : [{
+        "system" : "http://codesystem.inspirers.med.up.pt",
+        "code" : "2_901_10"
+      }],
+      "text" : "Pontuações CARAT superiores a 24 indicam bom controlo da doença. Pontuação total:",
+      "type" : "integer",
+      "required" : false,
+      "readOnly" : true,
+      "initial" : [{
+        "valueCoding" : {
+          "code" : "%CARATT"
+        }
+      }]
+    }]
+  }]
+}

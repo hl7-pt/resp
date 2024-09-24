@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Media/media_ID_example> a fhir:Media ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "media_ID_example"] ; # 
+  fhir:meta [
+     fhir:source [ fhir:v "Airdoc"^^xsd:anyURI ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Media media_ID_example</b></p><a name=\"media_ID_example\"> </a><a name=\"hcmedia_ID_example\"> </a><a name=\"media_ID_example-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Information Source: Airdoc</p></div><p><b>status</b>: Completed</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/media-type audio}\">Audio</span></p><p><b>subject</b>: <a href=\"Patient/patient_ID_example\">Patient/patient_ID_example</a></p><p><b>created</b>: 2021-11-19 21:09:24+0000</p><p><b>issued</b>: 2021-11-19 21:09:24+0000</p><p><b>operator</b>: <a href=\"Practitioner/6197b4718a1c764009364404-author\">Practitioner/6197b4718a1c764009364404-author</a></p><p><b>bodySite</b>: <span title=\"Codes:\">Lung Function</span></p><p><b>duration</b>: 10.0</p><blockquote><p><b>content</b></p></blockquote><p><b>note</b>: @2021-11-19 14:33:08+0000</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/media-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "audio" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://example.com/fhir/example/Patient/patient_ID_example> ;
+     fhir:reference [ fhir:v "Patient/patient_ID_example" ]
+  ] ; # 
+  fhir:created [ fhir:v "2021-11-19T21:09:24.009Z"^^xsd:dateTime] ; # 
+  fhir:issued [ fhir:v "2021-11-19T21:09:24.009Z"^^xsd:dateTime] ; # 
+  fhir:operator [
+     fhir:link <http://example.com/fhir/example/Practitioner/6197b4718a1c764009364404-author> ;
+     fhir:reference [ fhir:v "Practitioner/6197b4718a1c764009364404-author" ]
+  ] ; # 
+  fhir:bodySite [
+     fhir:text [ fhir:v "Lung Function" ]
+  ] ; # 
+  fhir:duration [ fhir:v "10.0"^^xsd:decimal] ; # 
+  fhir:content [
+     fhir:id [ fhir:v "a1" ] ;
+     fhir:contentType [ fhir:v "audio/wav" ] ;
+     fhir:data [ fhir:v "UklGRiSXDgBAAAAAAAAAAAAAAAAAAAAAAAAQArAWIBlwHLAQsCRAKHAskCBwNIA4kDzwMOBBzsIbQiRCKoI"^^xsd:base64Binary ] ;
+     fhir:creation [ fhir:v "2021-11-19T14:33:08.033Z"^^xsd:dateTime ]
+  ] ; # 
+  fhir:note ( [
+     fhir:time [ fhir:v "2021-11-19T14:33:08.033Z"^^xsd:dateTime ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

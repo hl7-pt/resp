@@ -1,0 +1,253 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 53, warn = 43, info = 75
+IG Publisher Version: 1.6.26
+Generated Tue Sep 24 13:41:55 UTC 2024. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 14 / 10 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-PRreferral-ABE : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-careplan : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-careteam : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-communication : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-condition : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-consent : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-goal : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-media : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-medication : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-medicationAdministration : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-medicationstatement : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-observation : 6 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-patient : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-person : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-practioner : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-questionnaire : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-questionnaireresponse : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-inspirers-relatedperson : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-inspirers-loinc-subset : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-inspirers-snomed-subset : 0 / 1 / 1
+ /github/workspace/input/examples/INSPIRERSComunicationExample : 5 / 1 / 1
+ /github/workspace/input/examples/INSPIRERSConditionExample : 5 / 1 / 1
+ /github/workspace/input/examples/MediaExampleINSPIRERSecossystem : 7 / 0 / 1
+ /github/workspace/input/examples/MedicationAdministrationExampleINSPIRERSecossystem : 6 / 0 / 1
+ /github/workspace/input/examples/MedicationExampleINSPIRERSecossystem : 1 / 3 / 1
+ /github/workspace/input/examples/MedicationStatmentExampleINSPIRERSecossystem : 6 / 0 / 3
+ /github/workspace/input/examples/PersonExampleINSPIRERSecossystem : 6 / 0 / 1
+ /github/workspace/input/examples/QuestionnaireExampleINSPIRERSecossystem : 4 / 6 / 61
+ /github/workspace/input/examples/QuestionnaireResponseExampleINSPIRERSecossystem : 3 / 1 / 14
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/questionnaire_ID_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationAdministration/MedicationAdministration_ID_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/MedicationStatement_ID_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/Medication_ID_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/QuestionnaireResponse_ID_example1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Communication/communication_ID_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/condition_ID_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Media/media_ID_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Person/person_ID_example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: package.tgz: Error converting pacakge to R4B: Error processing example/MedicationAdministration-MedicationAdministration_ID_example.json: Unknown MedicationAdministrationStatusCodes code 'not done'
+ERROR: /github/workspace/output/Communication-communication_ID_example.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 707: The link 'Patient/patient_ID_example' for "Patient/patient_ID_example" cannot be resolved
+ERROR: /github/workspace/output/Condition-condition_ID_example.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 644: The link 'Patient/patient_ID_example' for "Patient/patient_ID_example" cannot be resolved
+ERROR: /github/workspace/output/Condition-condition_ID_example.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 787: The link 'QuestionnaireResponse/QuestionnaireResponse_ID_example' for "QuestionnaireResponse/QuestionnaireResponse_ID_example" cannot be resolved
+ERROR: /github/workspace/output/Media-media_ID_example.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 639: The link 'Patient/patient_ID_example' for "Patient/patient_ID_example" cannot be resolved
+ERROR: /github/workspace/output/Media-media_ID_example.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 823: The link 'Practitioner/6197b4718a1c764009364404-author' for "Practitioner/6197b4718a1c764009364404-author" cannot be resolved
+ERROR: /github/workspace/output/MedicationAdministration-MedicationAdministration_ID_example.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 883: The link 'Patient/patient_ID_example' for "Patient/patient_ID_example" cannot be resolved
+ERROR: /github/workspace/output/MedicationAdministration-MedicationAdministration_ID_example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 192, column 1409: The link 'Patient/patient_ID_example' for "Patient/patient_ID_example" cannot be resolved
+ERROR: /github/workspace/output/MedicationStatement-MedicationStatement_ID_example.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 720: The link 'Patient/patient_ID_example' for "Patient/patient_ID_example" cannot be resolved
+ERROR: /github/workspace/output/MedicationStatement-MedicationStatement_ID_example.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 872: The link 'Patient/patient_ID_example' for "Patient/patient_ID_example" cannot be resolved
+ERROR: /github/workspace/output/Person-person_ID_example.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 192, column 371: The link '/fhir/api/Patient/Patient/patient_ID_example' for "/fhir/api/Patient/Patient/patient_ID_example" cannot be resolved
+ERROR: /github/workspace/output/Person-person_ID_example.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 192, column 539: The link 'Patient/Patient/patient_ID_example2' for "Patient/Patient/patient_ID_example2" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 237, column 132: The link 'package.r4.tgz' for "R4 (my-ig.r4)" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 237, column 179: The link 'package.r4b.tgz' for "R4B (my-ig.r4b)" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
+== fsh-generated/resources/StructureDefinition-PRreferral-ABE.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/PRreferral-ABE'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-careplan.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-careplan'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-careteam.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-careteam'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-communication.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-communication'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-condition.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-condition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-consent.json ==
+WARNING: StructureDefinition/inspirers-consent: StructureDefinition.snapshot.element[48].binding: The definition for the element 'Consent.provision.code' binds to the value set 'http://hl7.org/fhir/ValueSet/consent-content-code' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-consent'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-goal.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-goal'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-media.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-media'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-medication.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-medication'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-medicationAdministration.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-medicationAdministration'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-medicationstatement.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-medicationstatement'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-observation.json ==
+ERROR: StructureDefinition/inspirers-observation: StructureDefinition.snapshot.element[21].binding.valueSet: Canonical URL 'http://hl7.org/fhir/us/core/ValueSet/us-core-observation-category' does not resolve
+ERROR: StructureDefinition/inspirers-observation: StructureDefinition.snapshot.element[52].binding.valueSet: Canonical URL 'http://unitsofmeasure.org' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/inspirers-observation: StructureDefinition.differential.element[5].binding.valueSet: Canonical URL 'http://hl7.org/fhir/us/core/ValueSet/us-core-observation-category' does not resolve
+ERROR: StructureDefinition/inspirers-observation: StructureDefinition.differential.element[17].binding.valueSet: Canonical URL 'http://unitsofmeasure.org' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/inspirers-observation: StructureDefinition.differential.element[17].binding: The valueSet reference http://unitsofmeasure.org on element Observation.value[x].code points to something that is not a value set (CodeSystem)
+ERROR: StructureDefinition/inspirers-observation: StructureDefinition.snapshot.element[52].binding: The valueSet reference http://unitsofmeasure.org on element Observation.value[x].code points to something that is not a value set (CodeSystem)
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-patient.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-patient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-person.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-person'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-practioner.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-practioner'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-questionnaire.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-questionnaire'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-questionnaireresponse.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-questionnaireresponse'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-inspirers-relatedperson.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/inspirers-relatedperson'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-inspirers-loinc-subset.json ==
+WARNING: ValueSet/inspirers-loinc-subset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-inspirers-snomed-subset.json ==
+WARNING: ValueSet/inspirers-snomed-subset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== input/examples/INSPIRERSComunicationExample.json ==
+ERROR: Communication/communication_ID_example: Communication.id: Invalid Resource id: Invalid Characters ('communication_ID_example')
+ERROR: Communication/communication_ID_example: Communication.meta.source: URI values cannot have whitespace('Coaching System')
+ERROR: Communication/communication_ID_example: Communication.category[0].coding[0].system: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/communication-category')
+ERROR: Communication/communication_ID_example: Communication.subject: Unable to resolve resource with reference 'Patient/patient_ID_example'
+WARNING: Communication/communication_ID_example: Communication.reasonCode[0].coding[0]: A definition for CodeSystem 'codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+ERROR: Communication.text.div: Hyperlink 'Patient/patient_ID_example' at 'div/p/a' for 'Patient/patient_ID_example' does not resolve
+== input/examples/INSPIRERSConditionExample.json ==
+ERROR: Condition/condition_ID_example: Condition.id: Invalid Resource id: Invalid Characters ('condition_ID_example')
+WARNING: Condition/condition_ID_example: Condition.code.coding[0]: A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+ERROR: Condition/condition_ID_example: Condition.subject: Unable to resolve resource with reference 'Patient/patient_ID_example'
+ERROR: Condition/condition_ID_example: Condition.recorder: Unable to resolve resource with reference 'QuestionnaireResponse/QuestionnaireResponse_ID_example'
+ERROR: Condition.text.div: Hyperlink 'Patient/patient_ID_example' at 'div/p/a' for 'Patient/patient_ID_example' does not resolve
+ERROR: Condition.text.div: Hyperlink 'QuestionnaireResponse/QuestionnaireResponse_ID_example' at 'div/p/a' for 'QuestionnaireResponse/QuestionnaireResponse_ID_example' does not resolve
+== input/examples/MediaExampleINSPIRERSecossystem.json ==
+ERROR: Media/media_ID_example: Media.id: Invalid Resource id: Invalid Characters ('media_ID_example')
+ERROR: Media/media_ID_example: Media.subject: Unable to resolve resource with reference 'Patient/patient_ID_example'
+ERROR: Media/media_ID_example: Media.operator: Unable to resolve resource with reference 'Practitioner/6197b4718a1c764009364404-author'
+ERROR: Media/media_ID_example: Media.content.data: The value 'UklGRiSXDgBAAAAAAAAAAAAAAAAAAAAAAAAQArAWIBlwHLAQsCRAKHAskCBwNIA4kDzwMOBBzsIbQiRCKoI' is not a valid Base64 value
+ERROR: Media/media_ID_example: Media.note[0]: Annotation.text: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/Annotation|4.0.1)
+ERROR: Media.text.div: Hyperlink 'Patient/patient_ID_example' at 'div/p/a' for 'Patient/patient_ID_example' does not resolve
+ERROR: Media.text.div: Hyperlink 'Practitioner/6197b4718a1c764009364404-author' at 'div/p/a' for 'Practitioner/6197b4718a1c764009364404-author' does not resolve
+== input/examples/MedicationAdministrationExampleINSPIRERSecossystem.json ==
+ERROR: MedicationAdministration/MedicationAdministration_ID_example: MedicationAdministration.id: Invalid Resource id: Invalid Characters ('MedicationAdministration_ID_example')
+ERROR: MedicationAdministration/MedicationAdministration_ID_example: MedicationAdministration.status: The value provided ('not done') was not found in the value set 'Medication administration  status  codes' (http://hl7.org/fhir/ValueSet/medication-admin-status|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'not done' in the ValueSet 'http://hl7.org/fhir/ValueSet/medication-admin-status|4.0.1'; The provided code '#not done' was not found in the value set 'http://hl7.org/fhir/ValueSet/medication-admin-status|4.0.1')
+ERROR: MedicationAdministration/MedicationAdministration_ID_example: MedicationAdministration.subject: Unable to resolve resource with reference 'Patient/patient_ID_example'
+ERROR: MedicationAdministration/MedicationAdministration_ID_example: MedicationAdministration.performer[0].actor: Unable to resolve resource with reference 'Patient/patient_ID_example'
+ERROR: MedicationAdministration.text.div: Hyperlink 'Patient/patient_ID_example' at 'div/p/a' for 'Patient/patient_ID_example' does not resolve
+ERROR: MedicationAdministration.text.div: Hyperlink 'Patient/patient_ID_example' at 'div/table/tr/td/a' for 'Patient/patient_ID_example' does not resolve
+== input/examples/MedicationExampleINSPIRERSecossystem.json ==
+ERROR: Medication/Medication_ID_example: Medication.id: Invalid Resource id: Invalid Characters ('Medication_ID_example')
+WARNING: Medication/Medication_ID_example: Medication.code.coding[0]: A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+WARNING: Medication/Medication_ID_example: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+WARNING: Medication/Medication_ID_example: Medication.ingredient[0].item.ofType(CodeableConcept).coding[1]: A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+== input/examples/MedicationStatmentExampleINSPIRERSecossystem.json ==
+ERROR: MedicationStatement/MedicationStatement_ID_example: MedicationStatement.id: Invalid Resource id: Invalid Characters ('MedicationStatement_ID_example')
+ERROR: MedicationStatement/MedicationStatement_ID_example: MedicationStatement.subject: Unable to resolve resource with reference 'Patient/patient_ID_example'
+ERROR: MedicationStatement/MedicationStatement_ID_example: MedicationStatement.informationSource: Unable to resolve resource with reference 'Patient/patient_ID_example'
+INFORMATION: MedicationStatement/MedicationStatement_ID_example: MedicationStatement.dosage[0].route.coding[0].code: The code '260548002' is valid but is not active
+INFORMATION: MedicationStatement/MedicationStatement_ID_example: MedicationStatement.dosage[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
+ERROR: MedicationStatement/MedicationStatement_ID_example: MedicationStatement.dosage[0].doseAndRate[0].dose.ofType(Quantity).code: Unknown code 'tab' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm' version '3.0.0'
+ERROR: MedicationStatement.text.div: Hyperlink 'Patient/patient_ID_example' at 'div/p/a' for 'Patient/patient_ID_example' does not resolve
+ERROR: MedicationStatement.text.div: Hyperlink 'Patient/patient_ID_example' at 'div/p/a' for 'Patient/patient_ID_example' does not resolve
+== input/examples/PersonExampleINSPIRERSecossystem.json ==
+ERROR: Person/person_ID_example: Person.id: Invalid Resource id: Invalid Characters ('person_ID_example')
+ERROR: Person/person_ID_example: Person.identifier[0]: Identifier.system must be an absolute reference, not a local reference
+ERROR: Person/person_ID_example: Person.link[0].target: Unable to resolve resource with reference '/fhir/api/Patient/Patient/patient_ID_example'
+ERROR: Person/person_ID_example: Person.link[1].target: Unable to resolve resource with reference 'Patient/Patient/patient_ID_example2'
+ERROR: Person.text.div: Hyperlink '/fhir/api/Patient/Patient/patient_ID_example' at 'div/blockquote/p/a' for '/fhir/api/Patient/Patient/patient_ID_example' does not resolve
+ERROR: Person.text.div: Hyperlink 'Patient/Patient/patient_ID_example2' at 'div/blockquote/p/a' for 'Patient/Patient/patient_ID_example2' does not resolve
+== input/examples/QuestionnaireExampleINSPIRERSecossystem.json ==
+ERROR: Questionnaire/questionnaire_ID_example: Questionnaire.id: Invalid Resource id: Invalid Characters ('questionnaire_ID_example')
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/cqf-questionnaire|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/cqf-questionnaire|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/cqf-questionnaire|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: Questionnaire/questionnaire_ID_example: Questionnaire.extension[0].value.ofType(Expression).language: The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1': include #0 has system urn:ietf:bcp:13 which could not be found, and the server returned error [Error from http://tx.fhir.org/r4: The code System "urn:ietf:bcp:13" has a grammar, and cannot be enumerated directly]
+ERROR: Questionnaire/questionnaire_ID_example: Questionnaire.extension[0].value.ofType(Expression).language: The code provided is not in the maximum value set http://www.rfc-editor.org/bcp/bcp13.txt(which actually refers to 'MimeType' (http://hl7.org/fhir/ValueSet/mimetypes|4.0.1)), and a code from this value set is required) (code = The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1': include #0 has system urn:ietf:bcp:13 which could not be found, and the server returned error [Error from http://tx.fhir.org/r4: The code System "urn:ietf:bcp:13" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1'#{2}), error = {3})
+WARNING: Questionnaire/questionnaire_ID_example: Questionnaire.extension[1].value.ofType(Expression).language: The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1': include #0 has system urn:ietf:bcp:13 which could not be found, and the server returned error [Error from http://tx.fhir.org/r4: The code System "urn:ietf:bcp:13" has a grammar, and cannot be enumerated directly]
+ERROR: Questionnaire/questionnaire_ID_example: Questionnaire.extension[1].value.ofType(Expression).language: The code provided is not in the maximum value set http://www.rfc-editor.org/bcp/bcp13.txt(which actually refers to 'MimeType' (http://hl7.org/fhir/ValueSet/mimetypes|4.0.1)), and a code from this value set is required) (code = The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1': include #0 has system urn:ietf:bcp:13 which could not be found, and the server returned error [Error from http://tx.fhir.org/r4: The code System "urn:ietf:bcp:13" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1'#{2}), error = {3})
+WARNING: Questionnaire/questionnaire_ID_example: Questionnaire.extension[2].value.ofType(Expression).language: The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1': include #0 has system urn:ietf:bcp:13 which could not be found, and the server returned error [Error from http://tx.fhir.org/r4: The code System "urn:ietf:bcp:13" has a grammar, and cannot be enumerated directly]
+ERROR: Questionnaire/questionnaire_ID_example: Questionnaire.extension[2].value.ofType(Expression).language: The code provided is not in the maximum value set http://www.rfc-editor.org/bcp/bcp13.txt(which actually refers to 'MimeType' (http://hl7.org/fhir/ValueSet/mimetypes|4.0.1)), and a code from this value set is required) (code = The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1': include #0 has system urn:ietf:bcp:13 which could not be found, and the server returned error [Error from http://tx.fhir.org/r4: The code System "urn:ietf:bcp:13" has a grammar, and cannot be enumerated directly]; The System URI could not be determined for the code 'AIRDOC' in the ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1'#{2}), error = {3})
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.code[0]: A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[0].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[0].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[0].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[0].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[1].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[1].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[1].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[1].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[2].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[2].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[2].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[2].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[3].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[3].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[3].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[3].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[4].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[4].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[4].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[4].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[5].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[5].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[5].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[5].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[6].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[6].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[6].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[6].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[7].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[7].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[7].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[7].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[8].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[8].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[8].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[0].item[8].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[1].item[0].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[1].item[0].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[1].item[0].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[1].item[0].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[0].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[0].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[0].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[0].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[1].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[1].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[1].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[1].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[2].answerOption[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[2].answerOption[1].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[2].answerOption[2].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[2].item[2].answerOption[3].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[3].item[0].code[0]: A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+WARNING: Questionnaire/questionnaire_ID_example: Questionnaire.item[3].item[0].initial[0].value.ofType(Coding): A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[3].item[1].code[0]: A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+WARNING: Questionnaire/questionnaire_ID_example: Questionnaire.item[3].item[1].initial[0].value.ofType(Coding): A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: Questionnaire/questionnaire_ID_example: Questionnaire.item[3].item[2].code[0]: A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+WARNING: Questionnaire/questionnaire_ID_example: Questionnaire.item[3].item[2].initial[0].value.ofType(Coding): A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== input/examples/QuestionnaireResponseExampleINSPIRERSecossystem.json ==
+ERROR: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.id: Invalid Resource id: Invalid Characters ('QuestionnaireResponse_ID_example1')
+ERROR: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.subject: Unable to resolve resource with reference 'Patient/patient_ID_example'
+ERROR: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.source: Unable to resolve resource with reference 'Patient/patient_ID_example'
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[3].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[4].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[5].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[6].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[7].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[8].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[9].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[10].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[11].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse.item[12].answer[0].value.ofType(Coding): A definition for CodeSystem 'http://codesystem.inspirers.med.up.pt' could not be found, so the code cannot be validated
+WARNING: QuestionnaireResponse/QuestionnaireResponse_ID_example1: QuestionnaireResponse: The questionnaire 'http://fhir.inspirers.med.up.pt/Questionnaire/Q901PTpt|1.1' could not be resolved, so no validation can be performed against the base questionnaire

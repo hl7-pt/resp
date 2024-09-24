@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.com/fhir/example/ValueSet/inspirers-loinc-subset,1.0.0,active,,InspiresrsLoincSubset,Inspiresrs LOINC CT Subset,"A subset of LOINC CT codes for specific use cases in Inspiresrs.",,"LOINC"
+http://example.com/fhir/example/ValueSet/inspirers-snomed-subset,1.0.0,active,,InspiresrsSnomedSubset,Inspiresrs SNOMED CT Subset,"A subset of SNOMED CT codes for specific use cases in Inspiresrs.",,"SCT"
+http://hl7.org/fhir/ValueSet/data-absent-reason,4.0.1,active,"2.16.840.1.113883.4.642.3.5",DataAbsentReason,DataAbsentReason,"Used to specify why the normally expected content of the data element is missing.","StructureDefinition/inspirers-observation","THO"
+http://hl7.org/fhir/ValueSet/marital-status,4.0.1,active,"2.16.840.1.113883.4.642.3.29",Marital Status Codes,MaritalStatus,"This value set defines the set of codes that can be used to indicate the marital status of a person.","StructureDefinition/inspirers-patient","THO (V3)"
+http://hl7.org/fhir/ValueSet/observation-codes,4.0.1,draft,"2.16.840.1.113883.4.642.3.396",LOINCCodes,LOINC Codes,"This value set includes all LOINC codes","StructureDefinition/inspirers-observation","LOINC"

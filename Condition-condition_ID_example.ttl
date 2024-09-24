@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Condition/condition_ID_example> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "condition_ID_example"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition condition_ID_example</b></p><a name=\"condition_ID_example\"> </a><a name=\"hccondition_ID_example\"> </a><a name=\"condition_ID_example-en-US\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status unconfirmed}\">Unconfirmed</span></p><p><b>code</b>: <span title=\"Codes:{http://codesystem.inspirers.med.up.pt D_1.1_1}\">D_1.1_1</span></p><p><b>subject</b>: <a href=\"Patient/patient_ID_example\">Patient/patient_ID_example</a></p><p><b>recordedDate</b>: 2021-12-14 09:57:37+0000</p><p><b>recorder</b>: <a href=\"QuestionnaireResponse/QuestionnaireResponse_ID_example\">QuestionnaireResponse/QuestionnaireResponse_ID_example</a></p></div>"
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:verificationStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "unconfirmed" ]
+     ] )
+  ] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://codesystem.inspirers.med.up.pt"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "D_1.1_1" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://example.com/fhir/example/Patient/patient_ID_example> ;
+     fhir:reference [ fhir:v "Patient/patient_ID_example" ]
+  ] ; # 
+  fhir:recordedDate [ fhir:v "2021-12-14T09:57:37.057Z"^^xsd:dateTime] ; # 
+  fhir:recorder [
+     fhir:link <http://example.com/fhir/example/QuestionnaireResponse/QuestionnaireResponse_ID_example> ;
+     fhir:reference [ fhir:v "QuestionnaireResponse/QuestionnaireResponse_ID_example" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

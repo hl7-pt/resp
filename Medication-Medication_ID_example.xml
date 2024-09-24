@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Medication xmlns="http://hl7.org/fhir">
+  <id value="Medication_ID_example"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Medication Medication_ID_example</b></p><a name="Medication_ID_example"> </a><a name="hcMedication_ID_example"> </a><a name="Medication_ID_example-en-US"> </a><p><b>code</b>: <span title="Codes:{http://codesystem.inspirers.med.up.pt FluticasonePropionate_inhalernnn}, {http://www.whocc.no/atc R03BA05}">Fluticasone Propionate inhaler nnn</span></p><p><b>status</b>: Active</p><p><b>form</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm BAINHLPWD}">Breath Activated Powder Inhaler</span></p><p><b>amount</b>: 60/1</p><h3>Ingredients</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://codesystem.inspirers.med.up.pt Fluticasona}, {http://codesystem.inspirers.med.up.pt ICS}">Fluticasona</span></td><td>100 ug<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeug = 'ug')</span>/1</td></tr></table></div>
+  </text>
+  <code>
+    <coding>
+      <system value="http://codesystem.inspirers.med.up.pt"/>
+      <code value="FluticasonePropionate_inhalernnn"/>
+      <display value="Fluticasone Propionate inhaler nnn"/>
+    </coding>
+    <coding>
+      <system value="http://www.whocc.no/atc"/>
+      <code value="R03BA05"/>
+    </coding>
+  </code>
+  <status value="active"/>
+  <form>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"/>
+      <code value="BAINHLPWD"/>
+    </coding>
+  </form>
+  <amount>
+    <numerator>
+      <value value="60"/>
+    </numerator>
+    <denominator>
+      <value value="1"/>
+    </denominator>
+  </amount>
+  <ingredient>
+    <itemCodeableConcept>
+      <coding>
+        <system value="http://codesystem.inspirers.med.up.pt"/>
+        <code value="Fluticasona"/>
+      </coding>
+      <coding>
+        <system value="http://codesystem.inspirers.med.up.pt"/>
+        <code value="ICS"/>
+      </coding>
+    </itemCodeableConcept>
+    <strength>
+      <numerator>
+        <value value="100"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="ug"/>
+      </numerator>
+      <denominator>
+        <value value="1"/>
+      </denominator>
+    </strength>
+  </ingredient>
+</Medication>

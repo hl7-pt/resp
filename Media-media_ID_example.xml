@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Media xmlns="http://hl7.org/fhir">
+  <id value="media_ID_example"/>
+  <meta>
+    <source value="Airdoc"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Media media_ID_example</b></p><a name="media_ID_example"> </a><a name="hcmedia_ID_example"> </a><a name="media_ID_example-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Information Source: Airdoc</p></div><p><b>status</b>: Completed</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/media-type audio}">Audio</span></p><p><b>subject</b>: <a href="Patient/patient_ID_example">Patient/patient_ID_example</a></p><p><b>created</b>: 2021-11-19 21:09:24+0000</p><p><b>issued</b>: 2021-11-19 21:09:24+0000</p><p><b>operator</b>: <a href="Practitioner/6197b4718a1c764009364404-author">Practitioner/6197b4718a1c764009364404-author</a></p><p><b>bodySite</b>: <span title="Codes:">Lung Function</span></p><p><b>duration</b>: 10.0</p><blockquote><p><b>content</b></p></blockquote><p><b>note</b>: @2021-11-19 14:33:08+0000</p></div>
+  </text>
+  <status value="completed"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/media-type"/>
+      <code value="audio"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/patient_ID_example"/>
+  </subject>
+  <createdDateTime value="2021-11-19T21:09:24.009Z"/>
+  <issued value="2021-11-19T21:09:24.009Z"/>
+  <operator>
+    <reference value="Practitioner/6197b4718a1c764009364404-author"/>
+  </operator>
+  <bodySite>
+    <text value="Lung Function"/>
+  </bodySite>
+  <duration value="10.0"/>
+  <content id="a1">
+    <contentType value="audio/wav"/>
+    <data value="UklGRiSXDgBAAAAAAAAAAAAAAAAAAAAAAAAQArAWIBlwHLAQsCRAKHAskCBwNIA4kDzwMOBBzsIbQiRCKoI"/>
+    <creation value="2021-11-19T14:33:08.033Z"/>
+  </content>
+  <note>
+    <time value="2021-11-19T14:33:08.033Z"/>
+  </note>
+</Media>

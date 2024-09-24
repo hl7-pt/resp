@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.com/fhir/example/ValueSet/inspirers-loinc-subset,1.0.0,active,,InspiresrsLoincSubset,Inspiresrs LOINC CT Subset,"A subset of LOINC CT codes for specific use cases in Inspiresrs.",,"LOINC"
+http://example.com/fhir/example/ValueSet/inspirers-snomed-subset,1.0.0,active,,InspiresrsSnomedSubset,Inspiresrs SNOMED CT Subset,"A subset of SNOMED CT codes for specific use cases in Inspiresrs.",,"SCT"

@@ -1,0 +1,22 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.com/fhir/example/ValueSet/inspirers-loinc-subset",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "InspiresrsLoincSubset",
+      "title" : "Inspiresrs LOINC CT Subset",
+      "description" : "A subset of LOINC CT codes for specific use cases in Inspiresrs.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://example.com/fhir/example/ValueSet/inspirers-snomed-subset",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "InspiresrsSnomedSubset",
+      "title" : "Inspiresrs SNOMED CT Subset",
+      "description" : "A subset of SNOMED CT codes for specific use cases in Inspiresrs.",
+      "systems" : ["http://snomed.info/sct"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Person/person_ID_example> a fhir:Person ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "person_ID_example"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Person person_ID_example</b></p><a name=\"person_ID_example\"> </a><a name=\"hcperson_ID_example\"> </a><a name=\"person_ID_example-en-US\"> </a><p><b>identifier</b>: <code>AIRDOC-OPENID</code>/08991e2b-0860-491c-be5d-f0150bc560aa</p><blockquote><p><b>link</b></p><p><b>target</b>: <a href=\"/fhir/api/Patient/Patient/patient_ID_example\">/fhir/api/Patient/Patient/patient_ID_example</a></p></blockquote><blockquote><p><b>link</b></p><p><b>target</b>: <a href=\"Patient/Patient/patient_ID_example2\">Patient/Patient/patient_ID_example2</a></p></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "AIRDOC-OPENID"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "08991e2b-0860-491c-be5d-f0150bc560aa" ]
+  ] ) ; # 
+  fhir:link ( [
+     fhir:target [
+       fhir:link <http://example.com/fhir/example//fhir/api/Patient/Patient/patient_ID_example> ;
+       fhir:reference [ fhir:v "/fhir/api/Patient/Patient/patient_ID_example" ]
+     ]
+  ] [
+     fhir:target [
+       fhir:link <http://example.com/fhir/example/Patient/Patient/patient_ID_example2> ;
+       fhir:reference [ fhir:v "Patient/Patient/patient_ID_example2" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

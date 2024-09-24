@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="condition_ID_example"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Condition condition_ID_example</b></p><a name="condition_ID_example"> </a><a name="hccondition_ID_example"> </a><a name="condition_ID_example-en-US"> </a><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status unconfirmed}">Unconfirmed</span></p><p><b>code</b>: <span title="Codes:{http://codesystem.inspirers.med.up.pt D_1.1_1}">D_1.1_1</span></p><p><b>subject</b>: <a href="Patient/patient_ID_example">Patient/patient_ID_example</a></p><p><b>recordedDate</b>: 2021-12-14 09:57:37+0000</p><p><b>recorder</b>: <a href="QuestionnaireResponse/QuestionnaireResponse_ID_example">QuestionnaireResponse/QuestionnaireResponse_ID_example</a></p></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="unconfirmed"/>
+    </coding>
+  </verificationStatus>
+  <code>
+    <coding>
+      <system value="http://codesystem.inspirers.med.up.pt"/>
+      <code value="D_1.1_1"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/patient_ID_example"/>
+  </subject>
+  <recordedDate value="2021-12-14T09:57:37.057Z"/>
+  <recorder>
+    <reference value="QuestionnaireResponse/QuestionnaireResponse_ID_example"/>
+  </recorder>
+</Condition>

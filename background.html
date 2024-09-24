@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Background - HL7 PT FHIR Implementation Guide: Example IG Release 1 | STU1 v1.0.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/affiliate.css" rel="stylesheet"/>
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+<div id="project-nav">
+  <a id="affiliate-logo" no-external="true" href="http://hl7.eu">
+    <img height="71" alt="Visit the HL7 affiliate website" src="assets/images/affiliate.png"/>
+  </a>
+</div>
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="30" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 PT FHIR Implementation Guide: Example IG Release 1 | STU1</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0 - STU1
+
+
+
+  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">IG Home</a>
+  </li>
+  <li>
+    <a href="background.html">Background</a>
+  </li>
+  <li>
+    <a href="spec.html">Specification</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Background</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">HL7 PT FHIR Implementation Guide: Example IG Release 1 | STU1, published by HL7 Portugal. This guide is not an authorized publication; it is the continuous build for version 1.0.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-pt/resp-ig/tree/master">https://github.com/hl7-pt/resp-ig/tree/master</a> and changes regularly. See the <a href="http://example.com/fhir/example/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Background</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<p>O INSPIRERS é um ecosistema que propõe o fornecimento de um conjunto de ferramentas para o doente de modo a permitir a automonitorização de doenças e apoio à sua autogestão. Os dados são introduzidos e acedidos utilizando interfaces específicos para cada caso de uso, sendo desenhados para a pessoa com doença, para o profissional de saúde ou para o investigador. Os dados são então transmitidos de forma segura a um servidor que acomoda um repositório de dados de saúde. A partir deste repositório é possivel agregar serviços adicionais baseados no processsamento dos dados fornecidos, como por exemplo a geração de recomendações para apoio à auto gestão da doença entre visitas médicas com base na informação autoreportada e na evidência clínica que integra a base de conhecimento do ecosistema INSPIRERS.</p>
+
+<p>Cenários de utilização e o seu contexto</p>
+<h1 id="pessoa-adulta-com-diagnóstico-de-doença-respiratória-obstrutiva-crónica">Pessoa adulta com diagnóstico de doença respiratória obstrutiva crónica</h1>
+
+<p>As doenças respiratórias obstrutivas crónicas (DROC) são um grupo de condições das vias aéreas que causam obstrução crónica do fluxo de ar nos pulmões, dificultando a respiração. As principais doenças desse grupo incluem a Doença Pulmonar Obstrutiva Crónica (DPOC) e a asma.</p>
+
+<p>A Doença Pulmonar Obstrutiva Crónica (DPOC) é uma condição pulmonar progressiva, heterogénea, caracterizada por uma obstrução persistente do fluxo de ar nos pulmões. Esta obstrução é geralmente irreversível e piora com o tempo, sendo uma das principais causas de morbilidade e mortalidade em todo o mundo. As pessoas com DPOC podem manifestar tosse crónica e produção excessiva de muco durante vários meses seguidos (bronquite crónica) e/ou ter alterações estruturais pulmonares (por exemplo, enfisema) em que a troca de gases é comprometida pelos danos nos alveolos pulmonares. O prognóstico da DPOC depende da gravidade da doença, da idade do doente e da adesão ao tratamento. Embora a progressão possa ser retardada, especialmente com a cessação do tabagismo e a gestão adequada, a condição é crónica e pode levar a complicações graves, incluindo insuficiência respiratória. A gestão proativa pode melhorar significativamente a qualidade de vida e a capacidade funcional dos doentes.</p>
+
+<p>A asma é uma doença inflamatória crónica das vias aéreas que se caracteriza pelo estreitamento dos brônquios, habitualmente variável, que dificulta a respiração. Esta condição tem diferentes níveis de gravidade e carateriza-se por sintomas como falta de ar, pieira / chiadeira, aperto no peito e tosse. A asma pode afetar pessoas de todas as idades, mas muitas vezes começa na infância. O tratamento passa pelo uso de medicação de controlo, de forma a reduzir  a frequência e a gravidade dos sintomas e o risco de agudizações. Embora seja uma condição crónica, com a gestão adequada, a maioria das pessoas com asma pode viver uma vida ativa e normal. O controlo regular dos sintomas e o cumprimento do plano de tratamento são fundamentais para evitar complicações e melhorar a qualidade de vida.</p>
+
+<p>A app AIRDOC: Aplicação móvel Inteligente para suporte individualizado e monitorização da função e sons Respiratórios de Doentes Obstrutivos Crónicos - é um interface mais genérico do ecossistema INSPIRERS. Foi desenhada com o propósito de apoiar na automonitorização e autogestão das doenças respiratórias obstrutivas crónicas, nomeadamente a asma e a doença pulmonar obstrutiva crónica.
+A app AIRDOC contém módulos de monitorização e suporte à adesão terapêutica, monitorização de sintomas, registo de sons respiratórios e de apoio à gestão da doença através de recomendações personalizadas automáticas. Inclui também a possibilidade do mesmo utilizador gerir vários perfis de monitorização de forma a acomodar situações em que o utilizador seja o cuidador de pessoas com doença respiratória crónica que não utilizem a app de forma autónoma.</p>
+
+<h2 id="pessoa-com-diagnóstico-de-asma-grave">Pessoa com diagnóstico de asma grave</h2>
+
+<p>A asma grave é um subtipo de asma em que o doente mantém sintomas não controlados apesar de ter tratamento, adesão e outras doenças associadas com abordagem optimizada. 
+A REAG - Rede de Especialistas de Asma Grave é uma rede colaborativa informal de especialistas em asma (incluindo imunoalergologistas, pediatras, pneumologistas) que se dedicam à melhoria dos cuidados prestados aos doentes com asma grave em Portugal, desde 2011.
+A REAG desenvolveu o Registo de Asma Grave Portugal (RAG), que é um registo nacional de doentes com asma grave, seguindo a definição sugerida pelas diretivas da Global Initiative for Asthma - GINA (isto é, que não têm a asma controlada apesar de tratamento no degrau 4 ou 5 do GINA, ou perdem o controlo quando se tenta reduzir o nível de tratamento, e que têm outros fatores responsáveis por mau controlo com abordagem optimizada). O RAG está disponível online, em asmagrave.pt, após autenticação.</p>
+
+<p>Os objetivos do RAG são:</p>
+<ol>
+  <li>
+    <p>Melhorar a prestação de cuidados de saúde para a asma grave, identificando e promovendo melhores práticas clínicas de diagnóstico e tratamento da asma grave e a harmonização da sua documentação;</p>
+  </li>
+  <li>
+    <p>Facilitar projetos colaborativos, promovendo a cooperação entre os centros, auxiliando a execução dos projetos de investigação e permitindo a participação em redes ou projetos internacionais;</p>
+  </li>
+  <li>
+    <p>Contribuir para a definição e a adoção de políticas de saúde que ajudem os Portugueses com asma grave.</p>
+  </li>
+</ol>
+
+<p>A app CARATm – Caraterísticas Auto-reportadas de Asma em Tecnologias Móveis, é uma aplicação móvel do ecossistema INSPIRERS que tem o objetivo de monitorizar e caraterizar a asma através de dados auto-reportados pelo doente. É uma ferramenta de recolha de dados para apoio à consulta médica e também de apoio à realização de estudos de investigação clínica. É especialmente adequada à pessoa com asma grave uma vez que permite a integração de dados no RAG, se autorizado pelo utilizador. Contém módulos de monitorização de sintomas e suporte à adesão terapêutica, um conjunto alargado de questionários de caraterização que adquire toda a informação necessária ao RAG e um módulo de autorização de partilha de informação com o mesmo.</p>
+
+<h2 id="cuidador-de-criança-ou-jovem-com-doença-respiratória">Cuidador de criança ou jovem com doença respiratória</h2>
+
+<p>As doenças respiratórias, tanto agudas quanto crónicas, representam uma preocupação significativa na saúde pediátrica devido à sua alta prevalência e impacto na qualidade de vida das crianças. As infecções respiratórias agudas, como bronquiolite, laringotraqueobronquite, rinossinusite, faringite e pneumonia, estão entre as condições que mais frequentemente levam a consultas médicas não programadas, visitas a urgências e hospitalizações em idade pediátrica. Doenças respiratórias crónicas, como a asma, também têm um impacto considerável, especialmente durante os episódios agudos, que exigem uma gestão cuidadosa e monitorização médica frequente. Os sintomas críticos, como a falta de ar, a tosse persistente, as alterações nos sons pulmonares e na função pulmonar, são comuns nestas doenças e requerem uma caracterização rápida para determinar a necessidade de intervenção médica imediata.</p>
+
+<p>A gestão eficaz das doenças respiratórias em crianças muitas vezes recai sobre os seus cuidadores, que devem tomar decisões sobre quando ajustar o tratamento (de acordo com o plano terapêutico acordado com o médico) e quando procurar assistência médica. No entanto, a caracterização precisa dos sintomas respiratórios pode ser desafiadora para os pais, que muitas vezes não reconhecem adequadamente sinais como a pieira / chiadeira ou a falta de ar. A auscultação pulmonar é um método não invasivo importante na avaliação das doenças respiratórias, mas tradicionalmente depende da disponibilidade de consultas presenciais com profissionais de saúde. Adicionalmente, a avaliação objetiva da função pulmonar, através de testes como a espirometria, é essencial no diagnóstico e acompanhamento de crianças em idade escolar com doenças respiratórias crónicas, embora possa ser demorada e difícil de realizar.</p>
+
+<p>A aplicação móvel InspirersKids é o interface do ecossistema INSPIRERS especialmente dedicado a cuidadores de crianças e adolescentes com doença respiratória crónica ou aguda. A app tem disponíveis módulos para aquisição de sons respiratórios usando os sensores dos dispositivos móveis, permitindo monitorar tosse, sons respiratórios e função pulmonar. A InspirersKids inclui uma ferramenta dinâmica para questionários configuráveis, ​​em tempo e periodicidade, que permitem a inclusão fácil e rápida de qualquer tipo de pergunta ou campo a reportar, bem como o cálculo de indices.</p>
+
+<h2 id="profissional-de-saude-que-acompanha-a-pessoa-com-doença-respiratória-que-tem-um-perfil-definido-no-ecossistema-inspirers">Profissional de saude que acompanha a pessoa com doença respiratória que tem um perfil definido no ecossistema INSPIRERS</h2>
+
+<p>O acesso remoto atempado à informação de monitorização pelo profissional de saúde é relevante para uma gestão mais eficaz das doenças respiratórias. Este acesso permite decisões baseadas em informação mais completa, facilitando intervenções precoces (que podem ser implementadas à distância), de forma a prevenir agudizações reduzindo a necessidade de visitas presenciais.</p>
+
+<p>O ecossistema INSPIRERS inclui um portal dedicado a profissionais de saúde, permitindo-lhes aceder aos dados dos utilizadores que acompanham, desde que autorizado pelos mesmos. Este acesso à informação permite um acompanhamento mais contínuo e personalizado. A capacidade de monitorizar remotamente e em tempo real, garante que os cuidados sejam proativos e não apenas reativos, com potencial de melhoria dos resultados clínicos e da qualidade de vida da pessoa com doença respiratória crónica.</p>
+
+<h1 id="casos-de-uso">Casos de Uso:</h1>
+
+<h2 id="criar-ou-aceder-a-um-perfil-de-monitorização">Criar ou aceder a um perfil de monitorização</h2>
+<p><strong>Descrição</strong>: O utilizador quer criar ou aceder um perfil de monitorização.</p>
+
+<p><strong>Fluxo de Trabalho</strong>:</p>
+<ol>
+  <li>O utilizador acede ao sistema autenticando-se.</li>
+  <li>O sistema verifica se o utlilizador já tem algum perfil de monitorização criado.</li>
+  <li>O sistema mostra a lista de perfis de monitorização associados ao utilizador e a opção de criação de um novo perfil.</li>
+</ol>
+
+<p><strong>Acesso a um perfil já existente</strong>:</p>
+
+<ol>
+  <li>O utilizador escolhe um perfil de monitorização já existente.</li>
+  <li>O sistema assume o perfil escolhido como ativo e usa o mesmo para as opções subsequentes.</li>
+</ol>
+
+<p><strong>Criação de um novo perfil</strong>:</p>
+
+<ol>
+  <li>O utilizador escolhe criar um novo perfil.</li>
+  <li>O sistema solicita as informações de perfil - razão do uso do sistema, nome pelo qual quer ser tratado, ano e mês de nascimento, sexo, altura em cm, peso em kg - assim como a aceitação dos termos e condições.</li>
+  <li>O sistema valida e armazena as informações inseridas pela pessoa em tratamento.</li>
+  <li>O sistema envia toda a informação recolhida e gerada para o repositório de dados.</li>
+  <li>O sistema atribui um ID de perfil</li>
+</ol>
+
+<h2 id="registo-ou-alteração-do-plano-terapêutico">Registo ou alteração do plano terapêutico</h2>
+<p><strong>Descrição</strong>: O utilizador precisa de definir o seu plano terapêutico.</p>
+
+<p><strong>Fluxo de Trabalho</strong>:</p>
+
+<ol>
+  <li>O utilizador acede ao sistema e abre um plano de tratamento já existente, que lhe dá acesso a uma lista dos medicamentos anteriormente registados, se exitirem, ou propõe a introdução de um novo plano terapêutico.</li>
+  <li>Nesta lista é possivel editar ou apagar medicamentos ou solicitar a inclusão de um novo medicamento no seu plano terapêutico.</li>
+  <li>Para incluir um novo medicamento é preenchido um formulário em que se indicam as informações sobre o medicamento e tomas programadas (nome do medicamento, quantidade por toma, agendamento das tomas, data de início e duração do tratamento).</li>
+  <li>Ao iniciar a escrita do nome do medicamento o utilizador é apoiado pela sugestão de nome (nome comercial e formulação terapêutica) a partir de uma lista de medicamentos construida com base na informação do Infomed (disponibilizado pela Autoridade Nacional do Medicamento e Produtos de Saúde I.P. - INFARMED). Estas sugestões não são mandatórias e o utilizador pode introduzir um medicamento não listado.</li>
+  <li>Ao editar um medicamento é possivel alterar uma ou mais das informações listadas acima.</li>
+  <li>O sistema valida e armazena as informações inseridas pelo utilizador (pessoa em tratamento ou seu cuidador).</li>
+  <li>O sistema envia toda a informação recolhida e gerada (incluindo resposta ao questionário, indices derivados, observações e diagnósticos) para o repositório de dados.</li>
+</ol>
+
+<h2 id="monitorização-da-adesão-à-medicação">Monitorização da adesão à medicação</h2>
+<p><strong>Descrição</strong>: O utilizador precisa de registar as tomas efetuadas segundo o seu plano terapêutico.</p>
+
+<p><strong>Fluxo de Trabalho</strong>:</p>
+
+<ol>
+  <li>O utilizador recebe do sistema a notificação de toma, com as informações do medicamento e posologia.</li>
+  <li>O utilizador regista a toma como efetuada ou não efetuada.</li>
+  <li>O sistema valida e armazena as informações inseridas pelo utilizador.</li>
+  <li>O sistema envia toda a informação recolhida e gerada (incluindo resposta ao questionário, indices derivados, observações e diagnósticos) para o repositório de dados.</li>
+</ol>
+
+<h2 id="reporte-de-informação-de-caraterização-a-pedido-do-sistema">Reporte de informação de caraterização a pedido do sistema</h2>
+<p><strong>Descrição</strong>: O sistema sugere ao utilizador que responda a um questionário</p>
+
+<p><strong>Fluxo de Trabalho</strong>:</p>
+
+<ol>
+  <li>O sistema coloca na agenda um lembrete de resposta a um questionário de caraterização ou monitorização.</li>
+  <li>O utilizador aciona o questionário via agenda.</li>
+  <li>O sistema apresenta as perguntas no formato e sequência predefinidos, respeitando eventuais questões condicionais a respostas prévias.</li>
+  <li>O sistema calcula índices associados ao questionário e guarda os valores gerados.</li>
+  <li>O sistema regista diagnósticos e observações de acordo com o definido no questionário e guarda os valores gerados.</li>
+  <li>O sistema valida e armazena as informações inseridas pelo utilizador.</li>
+  <li>O sistema envia toda a informação recolhida e gerada (incluindo resposta ao questionário, indices derivados, observações e diagnósticos) para o repositório de dados.</li>
+</ol>
+
+<h2 id="autoreporte-de-informação-de-caraterização-por-iniciativa-do-utilizador">Autoreporte de informação de caraterização por iniciativa do utilizador</h2>
+<p><strong>Descrição</strong>: O utilizador autoreporta informação sobre si ou a sua história clínica por sua iniciativa</p>
+
+<p><strong>Fluxo de Trabalho</strong>:</p>
+
+<ol>
+  <li>O sistema disponibiliza uma lista de questionários de caraterização do utilizador e da sua história clínica.</li>
+  <li>O utilizador escolhe o questionário a que quer responder.</li>
+  <li>O sistema verifica se há informação em falta necessária à resposta do questionário escolhido e em caso afirmativo dá essa informação ao utilizador e propõe a resposta prévia ao questionário necessário,</li>
+  <li>O sistema apresenta as perguntas com o formato e sequência predefinidos, respeitando eventuais questões condicionais a respostas prévias.</li>
+  <li>O sistema calcula índices associados ao questionário e guarda os valores gerados.</li>
+  <li>O sistema regista diagnósticos e observações de acordo com o definido no questionário e guarda os valores gerados.</li>
+  <li>O sistema valida e armazena as informações inseridas pelo utilizador.</li>
+  <li>O sistema envia toda a informação recolhida e gerada (incluindo resposta ao questionário, indices derivados, observações e diagnósticos) para o repositório de dados.</li>
+</ol>
+
+<h2 id="visualização-das-respostas-a-questionários">Visualização das respostas a questionários</h2>
+<ul>
+  <li>
+    <p><strong>Descrição</strong>: A pessoa que detem o perfil de monitorização, assim como o professional de saúde autorizado pela mesma, pode consultar as respostas aos questionários de história clinica e monitorização</p>
+  </li>
+  <li>
+    <p><strong>Fluxo de Trabalho</strong>:</p>
+
+    <p><strong>Consulta pelo professional de saúde</strong>:</p>
+
+    <ol>
+      <li>O sistema mostra uma lista dos utilizadores a cujos perfis o profissional de saúde está autorizador a aceder.</li>
+      <li>O profissional de saúde acede ao sistema, escolhe o utilizador cujo perfil de monitorização quer visualizar, os tipos de questionários que quer visualizar e o intervalo de tempo relevante.</li>
+      <li>O sistema verifica se o profisisonal de saúde tem permissão para aceder aos dados escolhidos.</li>
+      <li>O sistema produz uma lista ordenada por tipo e data dos questionários respondidos no intervalo de tempo indicado.</li>
+      <li>O profissional de saúde seleciona o questionário pretendido e as suas perguntas e respostas são mostradas no idioma selecionado no perfil do profissional de saúde.</li>
+    </ol>
+
+    <p><strong>Consulta pela utilizador que detém o perfil de monitorização</strong>:</p>
+
+    <ol>
+      <li>O utilizador acede ao sistema, escolhe intervalo de tempo relevante e os tipos de questionários que quer visualizar.</li>
+      <li>O sistema produz uma lista ordenada por tipo e data dos questionários respondidos no intervalo de tempo indicado.</li>
+      <li>O utilizador seleciona o questionário pretendido e as suas perguntas e respostas são mostradas no idioma selecionado no perfil do utilizador.</li>
+    </ol>
+  </li>
+</ul>
+
+<h2 id="geração-e-disponibilização-de-recomendações-automáticas">Geração e disponibilização de recomendações automáticas</h2>
+<ul>
+  <li>
+    <p><strong>Descrição</strong>: O utilizador recebe e visualiza recomendações automáticas.</p>
+  </li>
+  <li>
+    <p><strong>Fluxo de Trabalho</strong>:</p>
+
+    <ol>
+      <li>O sistema notifica o serviço de recomendações automáticas da existência do perfil de monitorização com esse serviço subscrito.</li>
+      <li>O serviço de recomendações subscreve a notificação de alteração de dados relevantes no perfil.</li>
+      <li>O utilizador reporta novos dados através da utilização de qualquer dos módulos relevantes para as recomendações automáticas.</li>
+      <li>O sistema envia os novos dados ao serviço de recomendações automáticas.</li>
+      <li>O serviço de  recomendações automáticas gera as recomendações com base nos dados e na evidência clínica armazenada no mesmo e envia ao servidor.</li>
+      <li>O sistema envia a recomendação à aplicação e notifica o utilizador da existência de novas recomendações.</li>
+      <li>O sistema lista as recomendações, destacando as recomendações não visualizadas.</li>
+    </ol>
+
+    <p>## Registo de som de auscultação</p>
+  </li>
+  <li>
+    <p><strong>Descrição</strong>: O utilizador quer efetuar a gravação de sons respiratórios (auscultação).</p>
+  </li>
+  <li>
+    <p><strong>Fluxo de Trabalho</strong></p>
+
+    <ol>
+      <li>O utilizador seleciona o módulo de gravação de auscultação.</li>
+      <li>O utilizador seleciona o local de auscultação (e.g. traqueia).</li>
+      <li>O utilizador altera a duração máxima pré definida da gravação, se o desejar.</li>
+      <li>O utilizador aciona a gravação.</li>
+      <li>O sistema inicia a gravação após um atraso de alguns segundos, para permitir a colocação do microfone em contacto com o local de auscultação, avisando com um sinal sonoro.</li>
+      <li>O sistema grava o som ambiente até a gravação ser interrompida pelo utilizador ou atingir a duração máxima, avisando o utilizador com um sinal sonoro.</li>
+      <li>O sistema verifica a qualidade do som registado e notifica o utilizador se a mesma não for satifatória, apagando-a.</li>
+      <li>O utilizador pode ouvir a gravação efetuada, apagá-la ou introduzir uma nota.</li>
+      <li>O utilizador conclui o registo com a opção "Terminar" ou, alternativamente, "Nova Gravação" se pretender efetuar outro registo.</li>
+      <li>O sistema envia para o servidor o registo de som gravado, se este não tiver sido apagado por ordem do utilizador ou por falta de qualidade.</li>
+    </ol>
+
+    <p>## Registo do som da manobra expiratória forçada</p>
+  </li>
+  <li>
+    <p><strong>Descrição</strong>: O utilizador realiza uma manobra expiratória forçada e regista o som da mesma.</p>
+  </li>
+  <li>
+    <p><strong>Fluxo de Trabalho</strong>:</p>
+
+    <ol>
+      <li>O utilizador seleciona o módulo de gravação de função pulmonar.</li>
+      <li>O utilizador altera a duração máxima pré definida da gravação, se o desejar.</li>
+      <li>O utilizador aciona a gravação.</li>
+      <li>O sistema grava o som ambiente até a gravação ser interrompida pelo utilizador ou atingir  a duração máxima, tempo durante o qual se espera que o utilizador efetue a manobra expiratória forçada.</li>
+      <li>O sistema verifica a qualidade do som registado e notifica o utilizador se a mesma não for satifatória, apagando-a.</li>
+      <li>O utilizador pode ouvir a gravação efetuada, apagá-la ou introduzir uma nota.</li>
+      <li>O utilizador conclui o registo com a opção "Terminar" ou, alternativamente, "Nova Gravação" se pretender efetuar outro registo.</li>
+      <li>O sistema envia para o servidor o registo de som gravado, se este não tiver sido apagado por ordem do utilizador ou por falta de qualidade.</li>
+    </ol>
+
+    <h2 id="gravação-de-som-livre">Gravação de som livre</h2>
+  </li>
+  <li>
+    <p><strong>Descrição</strong>: O utilizador quer efetuar a gravação de som ambiente de forma imediata e livre (e.g gravar um ataque de tosse).</p>
+  </li>
+  <li>
+    <p><strong>Fluxo de Trabalho</strong>:</p>
+
+    <ol>
+      <li>O utilizador seleciona o módulo de gravação de som livre e a opção "Agora".</li>
+      <li>O utilizador altera a duração máxima pré definida da gravação, se o desejar.</li>
+      <li>O utilizador ativa o modo iniciando a gravação.</li>
+      <li>O sistema grava o som ambiente até a mesma ser interrompida pelo utilizador ou atingir o tempo máximo.</li>
+      <li>O sistema verifica a qualidade do som registado e notifica o utilizador se a mesma não for satifatória, apagando-a.</li>
+      <li>O utilizador pode ouvir a gravação efetuada, apagá-la ou introduzir uma nota.</li>
+      <li>O utilizador conclui o registo com a opção "Terminar" ou, alternativamente, "Nova Gravação" se pretender efetuar outro registo.</li>
+      <li>O sistema envia para o servidor o registo de som gravado, se este não tiver sido apagado por ordem do utilizador.</li>
+    </ol>
+
+    <h2 id="monitorização-contínua-de-tosse">Monitorização contínua de tosse</h2>
+  </li>
+  <li>
+    <p><strong>Descrição</strong>: O utilizador quer ativar o módulo de gravação de som livre no modo "Ativado por som" (e.g. pretende monitorizar a tosse nocturna).</p>
+  </li>
+  <li>
+    <p><strong>Fluxo de Trabalho</strong>:</p>
+
+    <ol>
+      <li>O utilizador seleciona o módulo de gravação de som livre e a opção "Ativado por som".</li>
+      <li>O utilizador ativa o modo iniciando a gravação.</li>
+      <li>O utilizador autoriza expressamente o modo gravação contínua, tomando conhecimento de que os sons serão enviados para ao servidor automaticamente.</li>
+      <li>O sistema regista ativamente o som ambiente e classifica o som como "silêncio" ou "sinal", descartando o registo até obter uma classificação de "sinal".</li>
+      <li>Após obter uma classificação de sinal o sistema grava o som ambiente até obter uma classificação de silêncio para todas as amostras durante um periodo pré determinado.</li>
+      <li>O sistema envia para o servidor o registo de som gravado desde a primeira classificação de "sinal" e até ao final do período de "silêncio" pré determinado e volta ao modo de escuta ativa.</li>
+      <li>O utilizador desativa o modo de gravação "Ativado por som".</li>
+    </ol>
+  </li>
+</ul>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.pt">HL7 Portugal</a>.  Package my-ig#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 24, 2024 13:41+0000">2024-09-24</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

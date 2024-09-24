@@ -1,0 +1,56 @@
+{
+  "resourceType" : "Medication",
+  "id" : "Medication_ID_example",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Medication Medication_ID_example</b></p><a name=\"Medication_ID_example\"> </a><a name=\"hcMedication_ID_example\"> </a><a name=\"Medication_ID_example-en-US\"> </a><p><b>code</b>: <span title=\"Codes:{http://codesystem.inspirers.med.up.pt FluticasonePropionate_inhalernnn}, {http://www.whocc.no/atc R03BA05}\">Fluticasone Propionate inhaler nnn</span></p><p><b>status</b>: Active</p><p><b>form</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm BAINHLPWD}\">Breath Activated Powder Inhaler</span></p><p><b>amount</b>: 60/1</p><h3>Ingredients</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://codesystem.inspirers.med.up.pt Fluticasona}, {http://codesystem.inspirers.med.up.pt ICS}\">Fluticasona</span></td><td>100 ug<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeug = 'ug')</span>/1</td></tr></table></div>"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://codesystem.inspirers.med.up.pt",
+      "code" : "FluticasonePropionate_inhalernnn",
+      "display" : "Fluticasone Propionate inhaler nnn"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "R03BA05"
+    }]
+  },
+  "status" : "active",
+  "form" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+      "code" : "BAINHLPWD"
+    }]
+  },
+  "amount" : {
+    "numerator" : {
+      "value" : 60
+    },
+    "denominator" : {
+      "value" : 1
+    }
+  },
+  "ingredient" : [{
+    "itemCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://codesystem.inspirers.med.up.pt",
+        "code" : "Fluticasona"
+      },
+      {
+        "system" : "http://codesystem.inspirers.med.up.pt",
+        "code" : "ICS"
+      }]
+    },
+    "strength" : {
+      "numerator" : {
+        "value" : 100,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "ug"
+      },
+      "denominator" : {
+        "value" : 1
+      }
+    }
+  }]
+}
