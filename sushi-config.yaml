@@ -7,15 +7,15 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: my-ig
+id: Inspirers-ig
 canonical: http://example.com/fhir/example
 url: http://example.com/fhir/example
-name: ExampleIG
-title: "HL7 PT FHIR Implementation Guide: Example IG Release 1 | STU1"
-description: Example IG exercises many of the fields in a SUSHI configuration.
+name: Inspirers IG
+title: "HL7 PT FHIR Implementation Guide: Inspirers Ecosystem IG Release 1 | STU1"
+description: This is the IG for the Inspirers Ecosystem
 status: active
 license: CC0-1.0
-date: 2020-02-26
+date: 2024-09-26
 version: 1.0.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
